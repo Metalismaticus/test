@@ -1,0 +1,12 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 60,
+  "frames": 240,
+  "duration_seconds": 4,
+  "video": "metalismatic-60fps.mp4",
+  "png_sequence": "frames/%04d.png",
+  "art": "image_gen layered artwork",
+  "motion": "procedural compositing; not 240 independently drawn pictures",
+  "audio": "original synthesized impact"
+}

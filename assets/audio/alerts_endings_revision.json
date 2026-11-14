@@ -1,0 +1,106 @@
+{
+  "breach_alarm": {
+    "revision": 3,
+    "source": "Exact repetitions of user-approved full wave_start_01.wav call",
+    "prompt": null,
+    "gain_db": -7,
+    "cooldown_ms": 3000,
+    "checks": [
+      {
+        "duration": 2.5,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -16.24
+      }
+    ],
+    "sources": [
+      {
+        "file": "audio/sfx/wave_start_01.wav",
+        "sha256": "4da8b7e80a5b573b5c6d82b147d87813db18c9150ef7e4f755e016328c828e80",
+        "repetitions": 2,
+        "gap_seconds": 0.15,
+        "author": "Sonicsheep",
+        "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+        "license": "CC0 1.0"
+      }
+    ]
+  },
+  "keep_alarm": {
+    "revision": 3,
+    "source": "Exact repetitions of user-approved full wave_start_01.wav call",
+    "prompt": null,
+    "gain_db": -7,
+    "cooldown_ms": 10000,
+    "checks": [
+      {
+        "duration": 3.825,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -16.33
+      }
+    ],
+    "sources": [
+      {
+        "file": "audio/sfx/wave_start_01.wav",
+        "sha256": "4da8b7e80a5b573b5c6d82b147d87813db18c9150ef7e4f755e016328c828e80",
+        "repetitions": 3,
+        "gap_seconds": 0.15,
+        "author": "Sonicsheep",
+        "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+        "license": "CC0 1.0"
+      }
+    ]
+  },
+  "victory": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: gothic metal musical ending",
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Metal, Genre: Video Game Music. A complete seven-second victory stinger for The Last Bastion, a dark medieval fortress surviving an undead siege. Immediate powerful full-band entrance. Downtuned distorted guitars play a short memorable rising minor-key heroic phrase, doubled by a cathedral pipe organ. Thick bass, pounding acoustic drums and a quick double-kick flourish. Brutal melodic death metal and gothic metal, hard-earned defiant victory, solemn grandeur. A strong resolved final power chord rings out and decays naturally before the end. Compact musical ending, no introduction, no looping, no vocals or choir. 144 BPM.",
+    "gain_db": -4,
+    "cooldown_ms": 10000,
+    "checks": [
+      {
+        "duration": 5.3629,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -18.81
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_alerts_endings_v2/victory_raw.wav",
+        "seed": 270101,
+        "duration": 7.0,
+        "steps": 8,
+        "model": "medium"
+      }
+    ]
+  },
+  "defeat": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: gothic metal musical ending",
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Metal, Genre: Video Game Music. A complete six-second defeat stinger for The Last Bastion, a dark medieval fortress falling to the undead. Immediate crushing low guitar chord and deep drum impact. Downtuned distorted guitars and cathedral pipe organ play a short descending minor-key phrase, slowing into one final ominous low chord with a natural decaying tail. Heavy gothic metal and doom metal, tragic, bleak and weighty. Thick bass, restrained acoustic drums. Compact musical ending, no introduction, no looping, no vocals or choir. 90 BPM.",
+    "gain_db": -5,
+    "cooldown_ms": 10000,
+    "checks": [
+      {
+        "duration": 3.4522,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -4.44,
+        "rms_db": -18.13
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_alerts_endings_v2/defeat_raw.wav",
+        "seed": 270102,
+        "duration": 6.0,
+        "steps": 8,
+        "model": "medium"
+      }
+    ]
+  }
+}

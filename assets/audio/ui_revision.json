@@ -1,0 +1,218 @@
+{
+  "ui_click": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. One tiny dry mechanical click of a small iron latch on a wooden box. Soft tactile muted tick, precise short attack, almost no resonance. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -18,
+    "checks": [
+      {
+        "duration": 0.1,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -21.66
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/ui_click_raw.wav",
+        "seed": 268100,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "ui_confirm": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. One small iron lock mechanism clicking firmly into place inside a wooden chest. Solid restrained wooden clack with a very brief muted metal tick. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -14,
+    "checks": [
+      {
+        "duration": 0.22,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -24.2
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/ui_confirm_raw.wav",
+        "seed": 268101,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "ui_cancel": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. One quick soft closing of a small leather bound book, dry leather flap and muted papery tap. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -18,
+    "checks": [
+      {
+        "duration": 0.18,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -23.19
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/ui_cancel_raw.wav",
+        "seed": 268102,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "ui_error": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. One short unsuccessful tug on a stuck iron latch, a dull restrained wooden knock and tiny rough mechanical rattle. Muted and dry. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -16,
+    "checks": [
+      {
+        "duration": 0.22,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -19.62
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/ui_error_raw.wav",
+        "seed": 268103,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "purchase": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. Three small gold coins dropped together into a leather pouch on a wooden counter, crisp delicate coin clinks immediately damped by soft leather. Very short and intimate. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -15,
+    "checks": [
+      {
+        "duration": 0.5,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -32.73
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/purchase_raw.wav",
+        "seed": 268104,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "level_up": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. A single heavy ceremonial steel seal firmly stamping thick parchment on a wooden table, satisfying deep compact thump with a short textured metallic resonance. Strong but restrained. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -11,
+    "checks": [
+      {
+        "duration": 0.2725,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -19.6
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/level_up_raw.wav",
+        "seed": 268105,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "talent_unlock": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. A brittle wax seal breaking on a thick parchment scroll, a crisp satisfying snap followed by a very short dry parchment rustle. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -14,
+    "checks": [
+      {
+        "duration": 0.1378,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.06,
+        "rms_db": -18.0
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/talent_unlock_raw.wav",
+        "seed": 268106,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "order_follow": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. A single compact iron armor buckle snapping closed with a short dry leather strap pull. Precise firm tactile clack. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -16,
+    "checks": [
+      {
+        "duration": 0.25,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -21.77
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/order_follow_raw.wav",
+        "seed": 268107,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  },
+  "order_hold": {
+    "revision": 2,
+    "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+    "prompt": "TrackType: SFX. A small wooden command token set firmly onto a rough wooden table, one low dry confident knock with a slight grainy scrape. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+    "gain_db": -16,
+    "checks": [
+      {
+        "duration": 0.28,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -22.98
+      }
+    ],
+    "sources": [
+      {
+        "raw": "reference/audio_ui_v2/order_hold_raw.wav",
+        "seed": 268108,
+        "duration": 2.0,
+        "model": "medium",
+        "steps": 8
+      }
+    ]
+  }
+}

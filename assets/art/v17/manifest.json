@@ -1,0 +1,139 @@
+{
+  "cell": [
+    181,
+    181
+  ],
+  "grid": [
+    4,
+    5
+  ],
+  "pivot_px": [
+    90,
+    165
+  ],
+  "facing": "right",
+  "characters": {
+    "summoner": {
+      "file": "summoner.png",
+      "size": [
+        724,
+        905
+      ],
+      "animations": {
+        "idle": {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frame_ms": 180,
+          "loop": true
+        },
+        "walk": {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frame_ms": 120,
+          "loop": true
+        },
+        "summon": {
+          "indices": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frame_ms": 140,
+          "loop": false,
+          "event_index": 10
+        },
+        "hurt": {
+          "indices": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frame_ms": 120,
+          "loop": false
+        },
+        "death": {
+          "indices": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "frame_ms": 150,
+          "loop": false
+        }
+      },
+      "common_source_scale": 0.5516014234875445
+    },
+    "undead-warrior": {
+      "file": "undead-warrior.png",
+      "size": [
+        724,
+        905
+      ],
+      "animations": {
+        "idle": {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frame_ms": 180,
+          "loop": true
+        },
+        "walk": {
+          "indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frame_ms": 120,
+          "loop": true
+        },
+        "attack": {
+          "indices": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frame_ms": 140,
+          "loop": false,
+          "event_index": 10
+        },
+        "rise": {
+          "indices": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frame_ms": 180,
+          "loop": false
+        },
+        "death": {
+          "indices": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "frame_ms": 150,
+          "loop": false
+        }
+      },
+      "common_source_scale": 0.5516014234875445
+    }
+  }
+}

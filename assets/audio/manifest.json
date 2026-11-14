@@ -1,0 +1,3443 @@
+{
+  "version": 1,
+  "generated_by": "Stable Audio 3 Medium + local procedural synthesis",
+  "asset_path_base": "assets",
+  "audition_status": "Technical checks only; listening and in-game mix approval pending",
+  "events": [
+    {
+      "id": "ui_click",
+      "category": "ui",
+      "trigger": "Нажатие активной кнопки",
+      "files": [
+        "audio/sfx/ui_click_01.wav"
+      ],
+      "gain_db": -18,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.66
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. One tiny dry mechanical click of a small iron latch on a wooden box. Soft tactile muted tick, precise short attack, almost no resonance. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/ui_click_raw.wav",
+          "seed": 268100,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "ui_confirm",
+      "category": "ui",
+      "trigger": "Подтверждение выбора героя или начала игры",
+      "files": [
+        "audio/sfx/ui_confirm_01.wav"
+      ],
+      "gain_db": -14,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.22,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.2
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. One small iron lock mechanism clicking firmly into place inside a wooden chest. Solid restrained wooden clack with a very brief muted metal tick. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/ui_confirm_raw.wav",
+          "seed": 268101,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "ui_cancel",
+      "category": "ui",
+      "trigger": "Закрытие панели или отмена размещения",
+      "files": [
+        "audio/sfx/ui_cancel_01.wav"
+      ],
+      "gain_db": -18,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.18,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.19
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. One quick soft closing of a small leather bound book, dry leather flap and muted papery tap. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/ui_cancel_raw.wav",
+          "seed": 268102,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "ui_error",
+      "category": "ui",
+      "trigger": "Недостаточно золота / действие недоступно; только на попытку ввода",
+      "files": [
+        "audio/sfx/ui_error_01.wav"
+      ],
+      "gain_db": -16,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.22,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.62
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. One short unsuccessful tug on a stuck iron latch, a dull restrained wooden knock and tiny rough mechanical rattle. Muted and dry. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/ui_error_raw.wav",
+          "seed": 268103,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "category": "ui",
+      "trigger": "Успешная покупка улучшения без собственного build/repair звука",
+      "files": [
+        "audio/sfx/purchase_01.wav"
+      ],
+      "gain_db": -15,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -32.73
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. Three small gold coins dropped together into a leather pouch on a wooden counter, crisp delicate coin clinks immediately damped by soft leather. Very short and intimate. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/purchase_raw.wav",
+          "seed": 268104,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "level_up",
+      "category": "ui",
+      "trigger": "Реальное повышение уровня героя в xp()",
+      "files": [
+        "audio/sfx/level_up_01.wav"
+      ],
+      "gain_db": -11,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.2725,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.6
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. A single heavy ceremonial steel seal firmly stamping thick parchment on a wooden table, satisfying deep compact thump with a short textured metallic resonance. Strong but restrained. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/level_up_raw.wav",
+          "seed": 268105,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "talent_unlock",
+      "category": "ui",
+      "trigger": "choose() вернул true: выбран талант",
+      "files": [
+        "audio/sfx/talent_unlock_01.wav"
+      ],
+      "gain_db": -14,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.1378,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.06,
+          "rms_db": -18.0
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. A brittle wax seal breaking on a thick parchment scroll, a crisp satisfying snap followed by a very short dry parchment rustle. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/talent_unlock_raw.wav",
+          "seed": 268106,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "order_follow",
+      "category": "ui",
+      "trigger": "order(true): гарнизон следует за героем",
+      "files": [
+        "audio/sfx/order_follow_01.wav"
+      ],
+      "gain_db": -16,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.25,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.77
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. A single compact iron armor buckle snapping closed with a short dry leather strap pull. Precise firm tactile clack. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/order_follow_raw.wav",
+          "seed": 268107,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "order_hold",
+      "category": "ui",
+      "trigger": "order(false): гарнизон держит точку",
+      "files": [
+        "audio/sfx/order_hold_01.wav"
+      ],
+      "gain_db": -16,
+      "cooldown_ms": 300,
+      "max_voices": 1,
+      "priority": 70,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: physical medieval UI Foley",
+      "checks": [
+        {
+          "duration": 0.28,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.98
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: SFX. A small wooden command token set firmly onto a rough wooden table, one low dry confident knock with a slight grainy scrape. A single isolated close microphone Foley sound for a dark medieval game interface. Immediate onset, quiet background, extremely short natural decay. No musical tones, no melody, no synthesizer, no electronic beep, no chime, no bells, no voices, no reverberation.",
+      "sources": [
+        {
+          "raw": "reference/audio_ui_v2/order_hold_raw.wav",
+          "seed": 268108,
+          "duration": 2.0,
+          "model": "medium",
+          "steps": 8
+        }
+      ]
+    },
+    {
+      "id": "wave_start",
+      "category": "signals",
+      "trigger": "start_wave() вернул true: начало волны",
+      "files": [
+        "audio/sfx/wave_start_01.wav"
+      ],
+      "gain_db": -7,
+      "cooldown_ms": 3000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Sonicsheep / Freesound 479310, CC0, user-selected real shofar recording",
+      "checks": [
+        {
+          "duration": 1.175,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -15.97
+        }
+      ],
+      "revision": 5,
+      "prompt": null,
+      "sources": [
+        {
+          "title": "shofar blast medium length two tone.m4a",
+          "author": "Sonicsheep",
+          "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+          "license": "CC0 1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "downloaded_file": "https://cdn.freesound.org/previews/479/479310_9802687-hq.mp3",
+          "note": "Public HQ MP3 preview of the selected recording; not the original M4A download. Decoded to mono 44.1 kHz WAV for editing.",
+          "segments_seconds": [
+            [
+              1.705,
+              2.38
+            ],
+            [
+              3.62,
+              4.16
+            ]
+          ],
+          "crossfade_seconds": 0.04,
+          "pitch_changed": false,
+          "time_stretch": false
+        }
+      ]
+    },
+    {
+      "id": "wave_clear",
+      "category": "signals",
+      "trigger": "Переход Wave -> Prep, один раз",
+      "files": [
+        "audio/sfx/wave_clear_01.wav"
+      ],
+      "gain_db": -8,
+      "cooldown_ms": 3000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Sonicsheep / Freesound 479310, CC0, user-selected real shofar recording",
+      "checks": [
+        {
+          "duration": 1.345,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -16.21
+        }
+      ],
+      "revision": 5,
+      "prompt": null,
+      "sources": [
+        {
+          "title": "shofar blast medium length two tone.m4a",
+          "author": "Sonicsheep",
+          "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+          "license": "CC0 1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "downloaded_file": "https://cdn.freesound.org/previews/479/479310_9802687-hq.mp3",
+          "note": "Public HQ MP3 preview of the selected recording; not the original M4A download. Decoded to mono 44.1 kHz WAV for editing.",
+          "segments_seconds": [
+            [
+              1.705,
+              2.55
+            ],
+            [
+              3.62,
+              4.16
+            ]
+          ],
+          "crossfade_seconds": 0.04,
+          "pitch_changed": false,
+          "time_stretch": false
+        }
+      ]
+    },
+    {
+      "id": "breach_alarm",
+      "category": "signals",
+      "trigger": "Разрушение стены: общий сигнал, подавлять повторные на 3 секунды",
+      "files": [
+        "audio/sfx/breach_alarm_01.wav"
+      ],
+      "gain_db": -7,
+      "cooldown_ms": 3000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Exact repetitions of user-approved full wave_start_01.wav call",
+      "checks": [
+        {
+          "duration": 2.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -16.24
+        }
+      ],
+      "revision": 3,
+      "prompt": null,
+      "sources": [
+        {
+          "file": "audio/sfx/wave_start_01.wav",
+          "sha256": "4da8b7e80a5b573b5c6d82b147d87813db18c9150ef7e4f755e016328c828e80",
+          "repetitions": 2,
+          "gap_seconds": 0.15,
+          "author": "Sonicsheep",
+          "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+          "license": "CC0 1.0"
+        }
+      ]
+    },
+    {
+      "id": "keep_alarm",
+      "category": "signals",
+      "trigger": "Донжон впервые ниже 25% HP, повтор не чаще 10 секунд при новом уроне",
+      "files": [
+        "audio/sfx/keep_alarm_01.wav"
+      ],
+      "gain_db": -7,
+      "cooldown_ms": 10000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Exact repetitions of user-approved full wave_start_01.wav call",
+      "checks": [
+        {
+          "duration": 3.825,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -16.33
+        }
+      ],
+      "revision": 3,
+      "prompt": null,
+      "sources": [
+        {
+          "file": "audio/sfx/wave_start_01.wav",
+          "sha256": "4da8b7e80a5b573b5c6d82b147d87813db18c9150ef7e4f755e016328c828e80",
+          "repetitions": 3,
+          "gap_seconds": 0.15,
+          "author": "Sonicsheep",
+          "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+          "license": "CC0 1.0"
+        }
+      ]
+    },
+    {
+      "id": "low_health",
+      "category": "signals",
+      "trigger": "Герой впервые ниже 25% HP, повтор не чаще 8 секунд при новом уроне",
+      "files": [
+        "audio/sfx/low_health_01.wav"
+      ],
+      "gain_db": -8,
+      "cooldown_ms": 3000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "procedural metallic modal synthesis",
+      "checks": [
+        {
+          "duration": 0.5588,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -7.06,
+          "rms_db": -18.0
+        }
+      ]
+    },
+    {
+      "id": "victory",
+      "category": "signals",
+      "trigger": "Переход в Won, один раз",
+      "files": [
+        "audio/sfx/victory_01.wav"
+      ],
+      "gain_db": -4,
+      "cooldown_ms": 10000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: gothic metal musical ending",
+      "checks": [
+        {
+          "duration": 5.3629,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.81
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Metal, Genre: Video Game Music. A complete seven-second victory stinger for The Last Bastion, a dark medieval fortress surviving an undead siege. Immediate powerful full-band entrance. Downtuned distorted guitars play a short memorable rising minor-key heroic phrase, doubled by a cathedral pipe organ. Thick bass, pounding acoustic drums and a quick double-kick flourish. Brutal melodic death metal and gothic metal, hard-earned defiant victory, solemn grandeur. A strong resolved final power chord rings out and decays naturally before the end. Compact musical ending, no introduction, no looping, no vocals or choir. 144 BPM.",
+      "sources": [
+        {
+          "raw": "reference/audio_alerts_endings_v2/victory_raw.wav",
+          "seed": 270101,
+          "duration": 7.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ]
+    },
+    {
+      "id": "defeat",
+      "category": "signals",
+      "trigger": "Переход в Lost, один раз",
+      "files": [
+        "audio/sfx/defeat_01.wav"
+      ],
+      "gain_db": -5,
+      "cooldown_ms": 10000,
+      "max_voices": 1,
+      "priority": 90,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "loop": false,
+      "positional": false,
+      "source": "Stable Audio 3 Medium: gothic metal musical ending",
+      "checks": [
+        {
+          "duration": 3.4522,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.44,
+          "rms_db": -18.13
+        }
+      ],
+      "revision": 2,
+      "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Gothic Metal, Genre: Video Game Music. A complete six-second defeat stinger for The Last Bastion, a dark medieval fortress falling to the undead. Immediate crushing low guitar chord and deep drum impact. Downtuned distorted guitars and cathedral pipe organ play a short descending minor-key phrase, slowing into one final ominous low chord with a natural decaying tail. Heavy gothic metal and doom metal, tragic, bleak and weighty. Thick bass, restrained acoustic drums. Compact musical ending, no introduction, no looping, no vocals or choir. 90 BPM.",
+      "sources": [
+        {
+          "raw": "reference/audio_alerts_endings_v2/defeat_raw.wav",
+          "seed": 270102,
+          "duration": 6.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ]
+    },
+    {
+      "id": "sword_swing",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.45,
+      "gain_db": -7,
+      "cooldown_ms": 100,
+      "trigger": "Рыцарь и мечники: выполнен обычный удар basic_hit, даже при промахе",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single fast heavy sword swing through air, short sharp metallic whoosh. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/sword_swing_01.wav",
+        "audio/sfx/sword_swing_02.wav",
+        "audio/sfx/sword_swing_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.1927,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.11
+        },
+        {
+          "duration": 0.2874,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.93
+        },
+        {
+          "duration": 0.3224,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.06
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/sword_swing_01.wav",
+          "seed": 265000,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/sword_swing_02.wav",
+          "seed": 265001,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/sword_swing_03.wav",
+          "seed": 265002,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "sword_hit",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.4,
+      "gain_db": -5,
+      "cooldown_ms": 80,
+      "trigger": "Подтверждённое попадание меча по врагу; не дублировать для каждого врага в AoE",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single sword chopping into a leathery undead body, punchy wet thud and brief bone crunch. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/sword_hit_01.wav",
+        "audio/sfx/sword_hit_02.wav",
+        "audio/sfx/sword_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.4,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.26
+        },
+        {
+          "duration": 0.4,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.73
+        },
+        {
+          "duration": 0.4,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.61
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/sword_hit_01.wav",
+          "seed": 265010,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/sword_hit_02.wav",
+          "seed": 265011,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/sword_hit_03.wav",
+          "seed": 265012,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "hammer_swing",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.55,
+      "gain_db": -5,
+      "cooldown_ms": 150,
+      "trigger": "Паладин: выполнен обычный удар basic_hit",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single heavy warhammer swinging through air, thick low whoosh with a short armor rattle. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/hammer_swing_01.wav",
+        "audio/sfx/hammer_swing_02.wav",
+        "audio/sfx/hammer_swing_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2625,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.28,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.1527,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.74,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.2076,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.4,
+          "rms_db": -18.0
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/hammer_swing_01.wav",
+          "seed": 265020,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hammer_swing_02.wav",
+          "seed": 265021,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hammer_swing_03.wav",
+          "seed": 265022,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "hammer_hit",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.65,
+      "gain_db": -3,
+      "cooldown_ms": 120,
+      "trigger": "Паладин: подтверждённое попадание молотом",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single massive iron warhammer impact on bone armor, deep physical thump and brittle crunch. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/hammer_hit_01.wav",
+        "audio/sfx/hammer_hit_02.wav",
+        "audio/sfx/hammer_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2026,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.4
+        },
+        {
+          "duration": 0.5369,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.4
+        },
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.05
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/hammer_hit_01.wav",
+          "seed": 265030,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hammer_hit_02.wav",
+          "seed": 265031,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hammer_hit_03.wav",
+          "seed": 265032,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "bow_shoot",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.35,
+      "gain_db": -7,
+      "cooldown_ms": 80,
+      "trigger": "Лучник и стрелки гарнизона: выпуск стрелы Projectile kind 0",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single medieval bow firing one arrow, taut bowstring snap and a very short arrow whistle. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/bow_shoot_01.wav",
+        "audio/sfx/bow_shoot_02.wav",
+        "audio/sfx/bow_shoot_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.3618,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.36,
+          "rms_db": -25.73
+        },
+        {
+          "duration": 0.3323,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -26.02
+        },
+        {
+          "duration": 0.3473,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.41
+        }
+      ],
+      "sources": [
+        {
+          "derived_from": "audio/sfx/bow_shoot_03.wav",
+          "source_sha256": "1b1b128f8939607d17633c73d1bed2c306b3281be5ff1bddbf29dc0e3c2c4514",
+          "playback_rate": 0.96,
+          "spectral_tilt": -0.1,
+          "method": "Small resampling and spectral tilt; original bow articulation retained"
+        },
+        {
+          "derived_from": "audio/sfx/bow_shoot_03.wav",
+          "source_sha256": "1b1b128f8939607d17633c73d1bed2c306b3281be5ff1bddbf29dc0e3c2c4514",
+          "playback_rate": 1.045,
+          "spectral_tilt": 0.1,
+          "method": "Small resampling and spectral tilt; original bow articulation retained"
+        },
+        {
+          "raw": "reference/audio_raw/bow_shoot_03.wav",
+          "seed": 265042,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "revision": 2,
+      "source": "User-approved bow_shoot_03 plus two close processed variations"
+    },
+    {
+      "id": "arrow_hit",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.3,
+      "gain_db": -9,
+      "cooldown_ms": 100,
+      "trigger": "Попадание стрелы Projectile kind 0; баллисте можно дать этот же звук громче",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single arrow embedding into a leather covered target, dry sharp puncture and short wooden vibration. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/arrow_hit_01.wav",
+        "audio/sfx/arrow_hit_02.wav",
+        "audio/sfx/arrow_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2376,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.59
+        },
+        {
+          "duration": 0.1428,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -5.38,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.3,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.77
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/arrow_hit_01.wav",
+          "seed": 265050,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/arrow_hit_02.wav",
+          "seed": 265051,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/arrow_hit_03.wav",
+          "seed": 265052,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "magic_bolt",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.45,
+      "gain_db": -7,
+      "cooldown_ms": 120,
+      "trigger": "Маг: обычный снаряд Projectile kind 1 выпущен",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single dark arcane magic projectile launch, compact electric crack and airy sizzling whoosh. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/magic_bolt_01.wav",
+        "audio/sfx/magic_bolt_02.wav",
+        "audio/sfx/magic_bolt_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2525,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.15
+        },
+        {
+          "duration": 0.3872,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.48
+        },
+        {
+          "duration": 0.2126,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.33
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/magic_bolt_01.wav",
+          "seed": 265060,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/magic_bolt_02.wav",
+          "seed": 265061,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/magic_bolt_03.wav",
+          "seed": 265062,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "magic_hit",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.5,
+      "gain_db": -7,
+      "cooldown_ms": 100,
+      "trigger": "Маг: столкновение обычного снаряда kind 1",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single small arcane magic impact, sharp crystalline crack and short sizzling decay. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/magic_hit_01.wav",
+        "audio/sfx/magic_hit_02.wav",
+        "audio/sfx/magic_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.0723,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -5.65,
+          "rms_db": -30.03
+        },
+        {
+          "duration": 0.0679,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -28.3
+        },
+        {
+          "duration": 0.0641,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -28.78
+        }
+      ],
+      "sources": [
+        {
+          "derived_from": "audio/sfx/magic_hit_02.wav",
+          "source_sha256": "8b8d2066714295978b676752db950e49bae02f0bbd0c5ef9692f2fd74515866a",
+          "playback_rate": 0.94,
+          "spectral_tilt": -0.12,
+          "method": "Resampling and gentle spectral tilt of approved transient"
+        },
+        {
+          "raw": "reference/audio_raw/magic_hit_02.wav",
+          "seed": 265071,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "derived_from": "audio/sfx/magic_hit_02.wav",
+          "source_sha256": "8b8d2066714295978b676752db950e49bae02f0bbd0c5ef9692f2fd74515866a",
+          "playback_rate": 1.06,
+          "spectral_tilt": 0.12,
+          "method": "Resampling and gentle spectral tilt of approved transient"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        1.0,
+        1.0
+      ],
+      "revision": 2,
+      "source": "User-approved magic_hit_02 and two closely related processed variations"
+    },
+    {
+      "id": "hero_hurt",
+      "category": "combat",
+      "variants": 3,
+      "max_seconds": 0.5,
+      "gain_db": -4,
+      "cooldown_ms": 250,
+      "trigger": "hurt_hero: HP реально уменьшилось, не при invuln",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single armored human body hit, solid leather thud and brief chainmail rattle, no voice. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/hero_hurt_01.wav",
+        "audio/sfx/hero_hurt_02.wav",
+        "audio/sfx/hero_hurt_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.43
+        },
+        {
+          "duration": 0.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.68
+        },
+        {
+          "duration": 0.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.44
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/hero_hurt_01.wav",
+          "seed": 265080,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hero_hurt_02.wav",
+          "seed": 265081,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/hero_hurt_03.wav",
+          "seed": 265082,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "hero_death",
+      "category": "combat",
+      "variants": 1,
+      "max_seconds": 1.6,
+      "gain_db": -2,
+      "cooldown_ms": 2000,
+      "trigger": "HP героя пересекло ноль; один раз перед поражением",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A heavily armored warrior collapsing onto stone, heavy body thud and falling steel equipment, no voice. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/hero_death_01.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.3051,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -26.77
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/hero_death_01.wav",
+          "seed": 265090,
+          "duration": 2.4000000000000004,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "step_stone",
+      "category": "movement",
+      "variants": 4,
+      "max_seconds": 0.25,
+      "gain_db": -18,
+      "cooldown_ms": 170,
+      "trigger": "Шаг героя по камню при реальном перемещении; ближайшим союзникам тише",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single boot footstep on rough stone with a little grit, dry close recording. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/step_stone_01.wav",
+        "audio/sfx/step_stone_02.wav",
+        "audio/sfx/step_stone_03.wav",
+        "audio/sfx/step_stone_04.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.25,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.89
+        },
+        {
+          "duration": 0.25,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.27
+        },
+        {
+          "duration": 0.25,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.03
+        },
+        {
+          "duration": 0.25,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.28
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/step_stone_01.wav",
+          "seed": 265100,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_stone_02.wav",
+          "seed": 265101,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_stone_03.wav",
+          "seed": 265102,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_stone_04.wav",
+          "seed": 265103,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "step_armor",
+      "category": "movement",
+      "variants": 4,
+      "max_seconds": 0.3,
+      "gain_db": -18,
+      "cooldown_ms": 220,
+      "trigger": "Шаг рыцаря или паладина вместо step_stone; не накладывать оба",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single armored boot footstep on stone, muted heavy sole impact with a tiny chainmail jingle. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/step_armor_01.wav",
+        "audio/sfx/step_armor_02.wav",
+        "audio/sfx/step_armor_03.wav",
+        "audio/sfx/step_armor_04.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2625,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.25
+        },
+        {
+          "duration": 0.2874,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.28
+        },
+        {
+          "duration": 0.3,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.4
+        },
+        {
+          "duration": 0.2076,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.39
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/step_armor_01.wav",
+          "seed": 265110,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_armor_02.wav",
+          "seed": 265111,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_armor_03.wav",
+          "seed": 265112,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/step_armor_04.wav",
+          "seed": 265113,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "knight_whirlwind",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 1.1,
+      "gain_db": -4,
+      "cooldown_ms": 250,
+      "trigger": "cast Knight slot 0: успешный Вихрь, один запуск на каст",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A short violent spinning sword whirlwind, several tightly grouped blade swishes with a forceful metallic finish. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/knight_whirlwind_01.wav",
+        "audio/sfx/knight_whirlwind_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.8312,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.51
+        },
+        {
+          "duration": 0.7963,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.71
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/knight_whirlwind_01.wav",
+          "seed": 265120,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/knight_whirlwind_02.wav",
+          "seed": 265121,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "knight_dash",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 0.55,
+      "gain_db": -5,
+      "cooldown_ms": 250,
+      "trigger": "cast Knight slot 1: начало Рывка",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single armored warrior rushing forward, powerful short air rush and heavy armor movement. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/knight_dash_01.wav",
+        "audio/sfx/knight_dash_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.3024,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.26
+        },
+        {
+          "duration": 0.55,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.81
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/knight_dash_01.wav",
+          "seed": 265130,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/knight_dash_02.wav",
+          "seed": 265131,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "fireball_cast",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 0.65,
+      "gain_db": -4,
+      "cooldown_ms": 200,
+      "trigger": "cast Mage slot 0: один запуск на каст, включая талант с тремя шарами",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single fireball launching, sharp ignition followed by a compact roaring flame whoosh. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/fireball_cast_01.wav",
+        "audio/sfx/fireball_cast_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.5419,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.56,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.4321,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.74
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/fireball_cast_01.wav",
+          "seed": 265140,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/fireball_cast_02.wav",
+          "seed": 265141,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "fireball_hit",
+      "category": "skills",
+      "variants": 3,
+      "max_seconds": 1.0,
+      "gain_db": -3,
+      "cooldown_ms": 150,
+      "trigger": "Взрыв Projectile kind 2; один звук на взрыв",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single magical fireball explosion, punchy low blast with a short roaring flame and crackling tail. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/fireball_hit_01.wav",
+        "audio/sfx/fireball_hit_02.wav",
+        "audio/sfx/fireball_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.5419,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.95
+        },
+        {
+          "duration": 0.6566,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.99,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.6716,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.21,
+          "rms_db": -18.0
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/fireball_hit_01.wav",
+          "seed": 265150,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/fireball_hit_02.wav",
+          "seed": 265151,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/fireball_hit_03.wav",
+          "seed": 265152,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "ice_nova",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 1.2,
+      "gain_db": -4,
+      "cooldown_ms": 300,
+      "trigger": "cast Mage slot 1: Кольцо льда",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A sudden expanding ring of magical frost, sharp icy crystalline crack followed by a sweeping frozen shimmer. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/ice_nova_01.wav",
+        "audio/sfx/ice_nova_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.6416,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.0
+        },
+        {
+          "duration": 0.6766,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.93
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/ice_nova_01.wav",
+          "seed": 265160,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/ice_nova_02.wav",
+          "seed": 265161,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "arrow_rain",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 2.9,
+      "gain_db": -7,
+      "cooldown_ms": 1000,
+      "trigger": "cast Archer slot 0: один раз при создании Zone kind 1, не каждый tick",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A short volley of arrows raining onto earth, many rapid dry wooden punctures and soft descending whistles. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/arrow_rain_01.wav",
+        "audio/sfx/arrow_rain_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 2.8366,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.22
+        },
+        {
+          "duration": 2.0584,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.29
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/arrow_rain_01.wav",
+          "seed": 265170,
+          "duration": 3.7,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/arrow_rain_02.wav",
+          "seed": 265171,
+          "duration": 3.7,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "archer_evade",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 0.45,
+      "gain_db": -8,
+      "cooldown_ms": 250,
+      "trigger": "cast Archer slot 1: Отскок",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single quick leather-clad evasive backstep, short cloth swish and light boot scrape. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/archer_evade_01.wav",
+        "audio/sfx/archer_evade_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.1428,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.65
+        },
+        {
+          "duration": 0.45,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.06
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/archer_evade_01.wav",
+          "seed": 265180,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/archer_evade_02.wav",
+          "seed": 265181,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "holy_light",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 1.6,
+      "gain_db": -6,
+      "cooldown_ms": 400,
+      "trigger": "cast Paladin slot 0: Святой свет; не запускать на каждом вылеченном союзнике",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single warm sacred magical healing pulse, deep resonant bell bloom and gentle luminous glass shimmer, no voices. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/holy_light_01.wav",
+        "audio/sfx/holy_light_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.5246,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -26.32
+        },
+        {
+          "duration": 1.6,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.66,
+          "rms_db": -18.0
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/holy_light_01.wav",
+          "seed": 265190,
+          "duration": 2.4000000000000004,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/holy_light_02.wav",
+          "seed": 265191,
+          "duration": 2.4000000000000004,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "heaven_smite",
+      "category": "skills",
+      "variants": 2,
+      "max_seconds": 1.4,
+      "gain_db": -3,
+      "cooldown_ms": 400,
+      "trigger": "cast Paladin slot 1: Кара небес в точке поражения",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single devastating holy thunder strike, brilliant sharp crack with a massive low impact and brief cathedral bell resonance. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/heaven_smite_01.wav",
+        "audio/sfx/heaven_smite_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.921,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.09
+        },
+        {
+          "duration": 0.7763,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.32
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/heaven_smite_01.wav",
+          "seed": 265200,
+          "duration": 2.2,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/heaven_smite_02.wav",
+          "seed": 265201,
+          "duration": 2.2,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 50,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "zombie_growl",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 1.0,
+      "gain_db": -14,
+      "cooldown_ms": 2500,
+      "trigger": "kind 0: редкий рык ближайшей нежити, не у каждого экземпляра",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single dry rasping undead zombie growl, low broken breath and throaty decay, no intelligible speech. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/zombie_growl_01.wav",
+        "audio/sfx/zombie_growl_02.wav",
+        "audio/sfx/zombie_growl_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.92
+        },
+        {
+          "duration": 1.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.07
+        },
+        {
+          "duration": 0.941,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.08
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/zombie_growl_01.wav",
+          "seed": 265210,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/zombie_growl_02.wav",
+          "seed": 265211,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/zombie_growl_03.wav",
+          "seed": 265212,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "crawler_snarl",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 0.75,
+      "gain_db": -13,
+      "cooldown_ms": 1800,
+      "trigger": "kind 1: ползун, вступление в близкий бой",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single skeletal beast snarl, sharp feral rasp with a faint bone rattle. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/crawler_snarl_01.wav",
+        "audio/sfx/crawler_snarl_02.wav",
+        "audio/sfx/crawler_snarl_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.75,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.79
+        },
+        {
+          "duration": 0.75,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.58
+        },
+        {
+          "duration": 0.7065,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.89
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/crawler_snarl_01.wav",
+          "seed": 265220,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/crawler_snarl_02.wav",
+          "seed": 265221,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/crawler_snarl_03.wav",
+          "seed": 265222,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "heavy_groan",
+      "category": "enemies",
+      "variants": 2,
+      "max_seconds": 1.1,
+      "gain_db": -11,
+      "cooldown_ms": 2200,
+      "trigger": "kind 2: тяжёлый враг, редкий низкий стон",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single massive undead armored brute groan, deep gravelly throat and slow heavy metal creak. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/heavy_groan_01.wav",
+        "audio/sfx/heavy_groan_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.0856,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.0
+        },
+        {
+          "duration": 1.1,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.62
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/heavy_groan_01.wav",
+          "seed": 265230,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/heavy_groan_02.wav",
+          "seed": 265231,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "spider_hiss",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 0.65,
+      "gain_db": -13,
+      "cooldown_ms": 1800,
+      "trigger": "kind 5: паук рядом с героем или начало атаки",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single giant spider threat hiss, dry chittering mandibles and a short sharp insect rasp. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/spider_hiss_01.wav",
+        "audio/sfx/spider_hiss_02.wav",
+        "audio/sfx/spider_hiss_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.34
+        },
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.74
+        },
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.44
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/spider_hiss_01.wav",
+          "seed": 265240,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/spider_hiss_02.wav",
+          "seed": 265241,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/spider_hiss_03.wav",
+          "seed": 265242,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "enemy_hit",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 0.35,
+      "gain_db": -10,
+      "cooldown_ms": 100,
+      "trigger": "Попадание врага по бойцу гарнизона; у героя использовать hero_hurt",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single claw striking leather armor, compact rough impact and a short scrape. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/enemy_hit_01.wav",
+        "audio/sfx/enemy_hit_02.wav",
+        "audio/sfx/enemy_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.35,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.74
+        },
+        {
+          "duration": 0.35,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.45
+        },
+        {
+          "duration": 0.1927,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.47
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/enemy_hit_01.wav",
+          "seed": 265250,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/enemy_hit_02.wav",
+          "seed": 265251,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/enemy_hit_03.wav",
+          "seed": 265252,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "undead_death",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 0.85,
+      "gain_db": -11,
+      "cooldown_ms": 180,
+      "trigger": "kind 0/1/2: переход HP через ноль, независимо от источника урона",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. An undead creature collapsing into bones and rags, short brittle bone clatter and dry body thump. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/undead_death_01.wav",
+        "audio/sfx/undead_death_02.wav",
+        "audio/sfx/undead_death_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.85,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.02
+        },
+        {
+          "duration": 0.85,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.36
+        },
+        {
+          "duration": 0.7763,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -30.86
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/undead_death_01.wav",
+          "seed": 265260,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/undead_death_02.wav",
+          "seed": 265261,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/undead_death_03.wav",
+          "seed": 265262,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "spider_death",
+      "category": "enemies",
+      "variants": 2,
+      "max_seconds": 0.65,
+      "gain_db": -11,
+      "cooldown_ms": 200,
+      "trigger": "kind 5: смерть паука",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A giant spider collapsing, short crunchy chitin crack and dry leg skitter. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/spider_death_01.wav",
+        "audio/sfx/spider_death_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.63
+        },
+        {
+          "duration": 0.65,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.92
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/spider_death_01.wav",
+          "seed": 265270,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/spider_death_02.wav",
+          "seed": 265271,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "bomber_fuse",
+      "category": "enemies",
+      "variants": 2,
+      "max_seconds": 0.38,
+      "gain_db": -5,
+      "cooldown_ms": 400,
+      "trigger": "kind 3: начало windup 0.4 секунды; короткий предупреждающий фитиль",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A short urgent sputtering burning powder fuse, sharp accelerating fizz, no explosion. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/bomber_fuse_01.wav",
+        "audio/sfx/bomber_fuse_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.38,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.38
+        },
+        {
+          "duration": 0.38,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.43
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/bomber_fuse_01.wav",
+          "seed": 265280,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/bomber_fuse_02.wav",
+          "seed": 265281,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "bomber_explode",
+      "category": "enemies",
+      "variants": 3,
+      "max_seconds": 1.1,
+      "gain_db": -3,
+      "cooldown_ms": 180,
+      "trigger": "kind 3: саморазрушение в конце windup; не проигрывать undead_death",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single black powder keg explosion against masonry, sharp powerful blast with tumbling stone fragments. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/bomber_explode_01.wav",
+        "audio/sfx/bomber_explode_02.wav",
+        "audio/sfx/bomber_explode_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.2376,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.58
+        },
+        {
+          "duration": 0.2176,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.01
+        },
+        {
+          "duration": 0.3722,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.16
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/bomber_explode_01.wav",
+          "seed": 265290,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/bomber_explode_02.wav",
+          "seed": 265291,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/bomber_explode_03.wav",
+          "seed": 265292,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "butcher_roar",
+      "category": "boss",
+      "variants": 2,
+      "max_seconds": 1.8,
+      "gain_db": -2,
+      "cooldown_ms": 4000,
+      "trigger": "kind 4: появление; повтор только при первом переходе ниже 50% HP",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single colossal undead butcher roar, terrifying deep guttural bellow with rough animal throat texture, no words. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/butcher_roar_01.wav",
+        "audio/sfx/butcher_roar_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.7441,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.74
+        },
+        {
+          "duration": 1.8,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.31,
+          "rms_db": -18.0
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/butcher_roar_01.wav",
+          "seed": 265300,
+          "duration": 2.6,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/butcher_roar_02.wav",
+          "seed": 265301,
+          "duration": 2.6,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 80,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "butcher_windup",
+      "category": "boss",
+      "variants": 2,
+      "max_seconds": 0.85,
+      "gain_db": -2,
+      "cooldown_ms": 900,
+      "trigger": "kind 4: установка windup перед рывком или ударом, предупреждение до урона",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A huge executioner dragging and raising an iron cleaver, rising harsh metallic scrape ending in a menacing clank. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/butcher_windup_01.wav",
+        "audio/sfx/butcher_windup_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.6716,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.27
+        },
+        {
+          "duration": 0.5369,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.61
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/butcher_windup_01.wav",
+          "seed": 265310,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/butcher_windup_02.wav",
+          "seed": 265311,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 80,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "butcher_hit",
+      "category": "boss",
+      "variants": 3,
+      "max_seconds": 0.85,
+      "gain_db": -2,
+      "cooldown_ms": 300,
+      "trigger": "kind 4: завершение ближнего удара; мощный удар в точке target",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single gigantic meat cleaver slamming into stone and bone, brutal sharp crunch and deep crushing thud. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/butcher_hit_01.wav",
+        "audio/sfx/butcher_hit_02.wav",
+        "audio/sfx/butcher_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.6217,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -30.66
+        },
+        {
+          "duration": 0.5668,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.35
+        },
+        {
+          "duration": 0.1378,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -23.49
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/butcher_hit_01.wav",
+          "seed": 265320,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/butcher_hit_02.wav",
+          "seed": 265321,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/butcher_hit_03.wav",
+          "seed": 265322,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 80,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "butcher_summon",
+      "category": "boss",
+      "variants": 2,
+      "max_seconds": 1.4,
+      "gain_db": -5,
+      "cooldown_ms": 2000,
+      "trigger": "kind 4: фактический вызов группы врагов при summon <= 0",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A short ominous necromantic summoning burst, low hollow rumble with cracking earth and rattling bones, no voices. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/butcher_summon_01.wav",
+        "audio/sfx/butcher_summon_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.9859,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -5.37,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 1.0058,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -18.55
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/butcher_summon_01.wav",
+          "seed": 265330,
+          "duration": 2.2,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/butcher_summon_02.wav",
+          "seed": 265331,
+          "duration": 2.2,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 80,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "butcher_death",
+      "category": "boss",
+      "variants": 1,
+      "max_seconds": 2.5,
+      "gain_db": -1,
+      "cooldown_ms": 5000,
+      "trigger": "kind 4: HP пересекло ноль, один раз",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A colossal armored undead beast collapsing, deep dying guttural exhale followed by a massive body fall and iron debris. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/butcher_death_01.wav"
+      ],
+      "checks": [
+        {
+          "duration": 2.5,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.85
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/butcher_death_01.wav",
+          "seed": 265340,
+          "duration": 3.3,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 80,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "ballista_fire",
+      "category": "siege",
+      "variants": 3,
+      "max_seconds": 0.7,
+      "gain_db": -7,
+      "cooldown_ms": 200,
+      "trigger": "Gun kind 0: выстрел баллисты",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single heavy medieval ballista firing, wooden tension snap, thick cable twang and forceful bolt whoosh. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/ballista_fire_01.wav",
+        "audio/sfx/ballista_fire_02.wav",
+        "audio/sfx/ballista_fire_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.1078,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.48
+        },
+        {
+          "duration": 0.5468,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.93
+        },
+        {
+          "duration": 0.1328,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -19.89
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/ballista_fire_01.wav",
+          "seed": 265350,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/ballista_fire_02.wav",
+          "seed": 265351,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/ballista_fire_03.wav",
+          "seed": 265352,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "cannon_fire",
+      "category": "siege",
+      "variants": 3,
+      "max_seconds": 1.1,
+      "gain_db": -5,
+      "cooldown_ms": 300,
+      "trigger": "Gun kind 1: выстрел пушки",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single small medieval black powder cannon firing, sharp explosive crack, deep thump and brief smoky rumble. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/cannon_fire_01.wav",
+        "audio/sfx/cannon_fire_02.wav",
+        "audio/sfx/cannon_fire_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.3174,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.46
+        },
+        {
+          "duration": 0.2824,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.22
+        },
+        {
+          "duration": 0.3273,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.17
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/cannon_fire_01.wav",
+          "seed": 265360,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/cannon_fire_02.wav",
+          "seed": 265361,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/cannon_fire_03.wav",
+          "seed": 265362,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "catapult_fire",
+      "category": "siege",
+      "variants": 2,
+      "max_seconds": 1.2,
+      "gain_db": -7,
+      "cooldown_ms": 300,
+      "trigger": "Gun kind 2: выстрел катапульты",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single medieval catapult releasing, heavy wood creak, rope snap and wooden arm clunk. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/catapult_fire_01.wav",
+        "audio/sfx/catapult_fire_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.916,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.0
+        },
+        {
+          "duration": 0.6167,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -26.05
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/catapult_fire_01.wav",
+          "seed": 265370,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/catapult_fire_02.wav",
+          "seed": 265371,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "siege_impact",
+      "category": "siege",
+      "variants": 3,
+      "max_seconds": 1.0,
+      "gain_db": -5,
+      "cooldown_ms": 160,
+      "trigger": "Взрыв снаряда kind 3 от пушки/катапульты; позиция попадания",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single heavy siege stone impact, crushing rock thud with short scattering masonry debris. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/siege_impact_01.wav",
+        "audio/sfx/siege_impact_02.wav",
+        "audio/sfx/siege_impact_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.8362,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.48
+        },
+        {
+          "duration": 0.3872,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.2
+        },
+        {
+          "duration": 0.5618,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -29.23
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/siege_impact_01.wav",
+          "seed": 265380,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/siege_impact_02.wav",
+          "seed": 265381,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/siege_impact_03.wav",
+          "seed": 265382,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "wall_hit",
+      "category": "structures",
+      "variants": 3,
+      "max_seconds": 0.5,
+      "gain_db": -10,
+      "cooldown_ms": 180,
+      "trigger": "damage_structures: HP стены или донжона уменьшилось без разрушения",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A single heavy blow against an old stone fortress wall, dull stone thud and small gritty chips. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/wall_hit_01.wav",
+        "audio/sfx/wall_hit_02.wav",
+        "audio/sfx/wall_hit_03.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.3972,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -21.94
+        },
+        {
+          "duration": 0.2276,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.41,
+          "rms_db": -18.0
+        },
+        {
+          "duration": 0.3024,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.15
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/wall_hit_01.wav",
+          "seed": 265390,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/wall_hit_02.wav",
+          "seed": 265391,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/wall_hit_03.wav",
+          "seed": 265392,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "wall_break",
+      "category": "structures",
+      "variants": 2,
+      "max_seconds": 1.8,
+      "gain_db": -3,
+      "cooldown_ms": 600,
+      "trigger": "HP сегмента стены пересекло ноль: обвал в его позиции",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A section of medieval stone wall collapsing, heavy cracking masonry and a short cascade of tumbling stones. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/wall_break_01.wav",
+        "audio/sfx/wall_break_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 1.8,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -27.28
+        },
+        {
+          "duration": 1.8,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -28.29
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/wall_break_01.wav",
+          "seed": 265400,
+          "duration": 2.6,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/wall_break_02.wav",
+          "seed": 265401,
+          "duration": 2.6,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "build_place",
+      "category": "structures",
+      "variants": 2,
+      "max_seconds": 0.8,
+      "gain_db": -8,
+      "cooldown_ms": 250,
+      "trigger": "Успешная установка орудия или восстановление стены",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. A heavy wooden and iron siege structure being set firmly in place, solid timber clunk and short metal rattle. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/build_place_01.wav",
+        "audio/sfx/build_place_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.8,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -24.33
+        },
+        {
+          "duration": 0.8,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -25.35
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/build_place_01.wav",
+          "seed": 265410,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/build_place_02.wav",
+          "seed": 265411,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "repair",
+      "category": "structures",
+      "variants": 2,
+      "max_seconds": 0.9,
+      "gain_db": -10,
+      "cooldown_ms": 300,
+      "trigger": "Успешная покупка Repair; один раз на операцию",
+      "loop": false,
+      "positional": true,
+      "prompt": "TrackType: SFX. Three quick deliberate hammer taps repairing stone and iron fortifications, compact dry construction sounds. One isolated sound event, close dry recording, immediate clear attack, short natural decay, quiet background. No music, no speech.",
+      "files": [
+        "audio/sfx/repair_01.wav",
+        "audio/sfx/repair_02.wav"
+      ],
+      "checks": [
+        {
+          "duration": 0.9,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -28.23
+        },
+        {
+          "duration": 0.9,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -28.12
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/repair_01.wav",
+          "seed": 265420,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        },
+        {
+          "raw": "reference/audio_raw/repair_02.wav",
+          "seed": 265421,
+          "duration": 2.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 3,
+      "priority": 30,
+      "pitch_range": [
+        0.96,
+        1.04
+      ]
+    },
+    {
+      "id": "amb_wind",
+      "category": "ambience",
+      "variants": 1,
+      "max_seconds": 16.0,
+      "gain_db": -24,
+      "cooldown_ms": 0,
+      "trigger": "Тихий общий фон карты, один бесшовный цикл",
+      "loop": true,
+      "positional": false,
+      "prompt": "TrackType: SFX. Steady cold wind moving around an abandoned medieval stone fortress, sparse soft air movement, constant ambience, no discrete loud events. Seamless continuous background texture. No music, no speech.",
+      "files": [
+        "audio/sfx/amb_wind_01.wav"
+      ],
+      "checks": [
+        {
+          "duration": 16.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -20.8
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/amb_wind_01.wav",
+          "seed": 265430,
+          "duration": 19.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 1,
+      "priority": 30,
+      "pitch_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "amb_fire",
+      "category": "ambience",
+      "variants": 1,
+      "max_seconds": 12.0,
+      "gain_db": -27,
+      "cooldown_ms": 0,
+      "trigger": "Тихий фон жаровен; один общий источник либо ближайшие два",
+      "loop": true,
+      "positional": false,
+      "prompt": "TrackType: SFX. Steady small brazier fire softly crackling, intimate subdued embers and gentle flame, constant ambience. Seamless continuous background texture. No music, no speech.",
+      "files": [
+        "audio/sfx/amb_fire_01.wav"
+      ],
+      "checks": [
+        {
+          "duration": 12.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -3.0,
+          "rms_db": -22.3
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/amb_fire_01.wav",
+          "seed": 265440,
+          "duration": 15.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 1,
+      "priority": 30,
+      "pitch_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "amb_horde",
+      "category": "ambience",
+      "variants": 1,
+      "max_seconds": 16.0,
+      "gain_db": -29,
+      "cooldown_ms": 0,
+      "trigger": "Во время Wave: один дальний слой орды, отключать в Prep",
+      "loop": true,
+      "positional": false,
+      "prompt": "TrackType: SFX. Distant indistinct undead horde rumbling beyond stone walls, low wind-like growls and soft movement, constant quiet ambience, no foreground screams. Seamless continuous background texture. No music, no speech.",
+      "files": [
+        "audio/sfx/amb_horde_01.wav"
+      ],
+      "checks": [
+        {
+          "duration": 16.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "peak_db": -4.22,
+          "rms_db": -18.0
+        }
+      ],
+      "sources": [
+        {
+          "raw": "reference/audio_raw/amb_horde_01.wav",
+          "seed": 265450,
+          "duration": 19.0,
+          "steps": 8,
+          "model": "medium"
+        }
+      ],
+      "max_voices": 1,
+      "priority": 30,
+      "pitch_range": [
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

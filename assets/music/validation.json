@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01_last_bastion.wav",
+    "check_exit_code": 0,
+    "original_peak": 1.0,
+    "applied_gain": 0.98
+  },
+  {
+    "file": "02_dead_at_the_gates.wav",
+    "check_exit_code": 0,
+    "original_peak": 1.0,
+    "applied_gain": 0.98
+  },
+  {
+    "file": "03_the_butcher.wav",
+    "check_exit_code": 0,
+    "original_peak": 1.0,
+    "applied_gain": 0.98
+  },
+  {
+    "file": "04_before_the_siege.wav",
+    "check_exit_code": 0,
+    "original_peak": 0.94775390625,
+    "applied_gain": 1.0
+  }
+]

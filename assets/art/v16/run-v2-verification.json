@@ -1,0 +1,95 @@
+{
+  "scale": 0.3763157894736842,
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        25,
+        25,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 25
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        26,
+        25,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 25
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        27,
+        25,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 25
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        27,
+        26,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 26
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        25,
+        24,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 24
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        26,
+        24,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 24
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        26,
+        24,
+        167,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 24
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        26,
+        23,
+        168,
+        166
+      ],
+      "sole_y": 165,
+      "head_top_y": 23
+    }
+  ],
+  "moving_preview_speed_px_s": 120,
+  "fps": 12
+}

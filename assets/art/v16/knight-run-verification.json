@@ -1,0 +1,102 @@
+{
+  "fps": 16,
+  "scale": 0.39577836411609496,
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        25,
+        16,
+        153,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 16,
+      "phase": "support"
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        28,
+        17,
+        154,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 17,
+      "phase": "support"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        26,
+        17,
+        155,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 17,
+      "phase": "support"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        29,
+        13,
+        156,
+        148
+      ],
+      "lowest_foot_y": 147,
+      "head_top_y": 13,
+      "phase": "flight"
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        23,
+        17,
+        153,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 17,
+      "phase": "support"
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        25,
+        18,
+        154,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 18,
+      "phase": "support"
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        26,
+        17,
+        155,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 17,
+      "phase": "support"
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        24,
+        13,
+        155,
+        154
+      ],
+      "lowest_foot_y": 153,
+      "head_top_y": 13,
+      "phase": "flight"
+    }
+  ]
+}

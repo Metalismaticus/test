@@ -1,0 +1,103 @@
+{
+  "scale": 0.37889688249400477,
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        7,
+        38,
+        162,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 38,
+      "phase": "support"
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        6,
+        40,
+        161,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 40,
+      "phase": "support"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        4,
+        40,
+        159,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 40,
+      "phase": "support"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        8,
+        38,
+        164,
+        149
+      ],
+      "lowest_foot_y": 148,
+      "head_top_y": 38,
+      "phase": "flight"
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        10,
+        42,
+        165,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 42,
+      "phase": "support"
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        9,
+        42,
+        164,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 42,
+      "phase": "support"
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        9,
+        43,
+        164,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 43,
+      "phase": "support"
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        7,
+        38,
+        165,
+        149
+      ],
+      "lowest_foot_y": 148,
+      "head_top_y": 38,
+      "phase": "flight"
+    }
+  ],
+  "moving_preview_speed_px_s": 192,
+  "fps": 16
+}

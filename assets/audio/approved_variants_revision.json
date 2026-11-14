@@ -1,0 +1,122 @@
+{
+  "magic_hit": {
+    "revision": 2,
+    "variants": 3,
+    "source": "User-approved magic_hit_02 and two closely related processed variations",
+    "files": [
+      "audio/sfx/magic_hit_01.wav",
+      "audio/sfx/magic_hit_02.wav",
+      "audio/sfx/magic_hit_03.wav"
+    ],
+    "checks": [
+      {
+        "duration": 0.0723,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -5.65,
+        "rms_db": -30.03
+      },
+      {
+        "duration": 0.0679,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -28.3
+      },
+      {
+        "duration": 0.0641,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -28.78
+      }
+    ],
+    "sources": [
+      {
+        "derived_from": "audio/sfx/magic_hit_02.wav",
+        "source_sha256": "8b8d2066714295978b676752db950e49bae02f0bbd0c5ef9692f2fd74515866a",
+        "playback_rate": 0.94,
+        "spectral_tilt": -0.12,
+        "method": "Resampling and gentle spectral tilt of approved transient"
+      },
+      {
+        "raw": "reference/audio_raw/magic_hit_02.wav",
+        "seed": 265071,
+        "duration": 2.0,
+        "steps": 8,
+        "model": "medium"
+      },
+      {
+        "derived_from": "audio/sfx/magic_hit_02.wav",
+        "source_sha256": "8b8d2066714295978b676752db950e49bae02f0bbd0c5ef9692f2fd74515866a",
+        "playback_rate": 1.06,
+        "spectral_tilt": 0.12,
+        "method": "Resampling and gentle spectral tilt of approved transient"
+      }
+    ],
+    "pitch_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "bow_shoot": {
+    "revision": 2,
+    "variants": 3,
+    "source": "User-approved bow_shoot_03 plus two close processed variations",
+    "files": [
+      "audio/sfx/bow_shoot_01.wav",
+      "audio/sfx/bow_shoot_02.wav",
+      "audio/sfx/bow_shoot_03.wav"
+    ],
+    "checks": [
+      {
+        "duration": 0.3618,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.36,
+        "rms_db": -25.73
+      },
+      {
+        "duration": 0.3323,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -26.02
+      },
+      {
+        "duration": 0.3473,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -25.41
+      }
+    ],
+    "sources": [
+      {
+        "derived_from": "audio/sfx/bow_shoot_03.wav",
+        "source_sha256": "1b1b128f8939607d17633c73d1bed2c306b3281be5ff1bddbf29dc0e3c2c4514",
+        "playback_rate": 0.96,
+        "spectral_tilt": -0.1,
+        "method": "Small resampling and spectral tilt; original bow articulation retained"
+      },
+      {
+        "derived_from": "audio/sfx/bow_shoot_03.wav",
+        "source_sha256": "1b1b128f8939607d17633c73d1bed2c306b3281be5ff1bddbf29dc0e3c2c4514",
+        "playback_rate": 1.045,
+        "spectral_tilt": 0.1,
+        "method": "Small resampling and spectral tilt; original bow articulation retained"
+      },
+      {
+        "raw": "reference/audio_raw/bow_shoot_03.wav",
+        "seed": 265042,
+        "duration": 2.0,
+        "steps": 8,
+        "model": "medium"
+      }
+    ],
+    "pitch_range": [
+      1.0,
+      1.0
+    ]
+  }
+}

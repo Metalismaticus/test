@@ -1,0 +1,232 @@
+{
+  "canvas": [
+    1280,
+    720
+  ],
+  "coordinates": "top-left origin, x right, y down; sizes in design pixels",
+  "layers": [
+    {
+      "name": "landscape",
+      "file": "layers/landscape.png",
+      "xy": [
+        0,
+        0
+      ],
+      "z": 0,
+      "parallax_px": [
+        0,
+        0
+      ],
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "name": "moon",
+      "file": "layers/moon.png",
+      "xy": [
+        1040,
+        0
+      ],
+      "z": 1,
+      "parallax_px": [
+        1,
+        1
+      ],
+      "size": [
+        190,
+        192
+      ]
+    },
+    {
+      "name": "cloud-far",
+      "file": "layers/cloud-far.png",
+      "xy": [
+        480,
+        5
+      ],
+      "z": 2,
+      "parallax_px": [
+        2,
+        1
+      ],
+      "size": [
+        700,
+        147
+      ]
+    },
+    {
+      "name": "cloud-near",
+      "file": "layers/cloud-near.png",
+      "xy": [
+        830,
+        60
+      ],
+      "z": 3,
+      "parallax_px": [
+        3,
+        1
+      ],
+      "size": [
+        600,
+        85
+      ]
+    },
+    {
+      "name": "fortress",
+      "file": "layers/fortress.png",
+      "xy": [
+        475,
+        145
+      ],
+      "z": 4,
+      "parallax_px": [
+        3,
+        2
+      ],
+      "size": [
+        770,
+        494
+      ]
+    },
+    {
+      "name": "crawler-left",
+      "file": "layers/crawler-left.png",
+      "xy": [
+        785,
+        642
+      ],
+      "size": [
+        65,
+        56
+      ],
+      "z": 6,
+      "parallax_px": [
+        4,
+        2
+      ],
+      "motion": "static separate sprite"
+    },
+    {
+      "name": "crawler-right",
+      "file": "layers/crawler-right.png",
+      "xy": [
+        881,
+        641
+      ],
+      "size": [
+        70,
+        55
+      ],
+      "z": 6,
+      "parallax_px": [
+        4,
+        2
+      ],
+      "motion": "static separate sprite"
+    },
+    {
+      "name": "foreground",
+      "file": "layers/foreground.png",
+      "xy": [
+        0,
+        0
+      ],
+      "z": 8,
+      "parallax_px": [
+        7,
+        4
+      ],
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "fx": {
+    "flame": {
+      "atlas": "fx/flame-atlas.png",
+      "cell": [
+        128,
+        128
+      ],
+      "frames": 4,
+      "fps": 10,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "display_cell": [
+        44,
+        56
+      ],
+      "mounts_local": [
+        [
+          215,
+          249
+        ],
+        [
+          555,
+          249
+        ]
+      ]
+    },
+    "flag": {
+      "atlas": "fx/flag-atlas.png",
+      "cell": [
+        128,
+        128
+      ],
+      "frames": 4,
+      "fps": 7,
+      "pivot_px": [
+        14,
+        16
+      ],
+      "display_cell": [
+        65,
+        45
+      ],
+      "mounts_local": [
+        [
+          662,
+          31
+        ],
+        [
+          89,
+          357
+        ],
+        [
+          680,
+          357
+        ]
+      ]
+    }
+  },
+  "logo": {
+    "file": "layers/logo.png",
+    "rect": [
+      35,
+      100,
+      465,
+      191
+    ]
+  },
+  "menu_rect": [
+    120,
+    350,
+    300,
+    280
+  ],
+  "cloud_animation": {
+    "files": [
+      "layers/cloud-far.png",
+      "layers/cloud-near.png"
+    ],
+    "separate_from_landscape": true,
+    "amplitude_px": 18,
+    "period_seconds": 90,
+    "opacity": 0.85
+  }
+}

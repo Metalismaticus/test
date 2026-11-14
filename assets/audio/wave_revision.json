@@ -1,0 +1,80 @@
+{
+  "wave_start": {
+    "revision": 5,
+    "source": "Sonicsheep / Freesound 479310, CC0, user-selected real shofar recording",
+    "prompt": null,
+    "gain_db": -7,
+    "checks": [
+      {
+        "duration": 1.175,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -15.97
+      }
+    ],
+    "sources": [
+      {
+        "title": "shofar blast medium length two tone.m4a",
+        "author": "Sonicsheep",
+        "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "downloaded_file": "https://cdn.freesound.org/previews/479/479310_9802687-hq.mp3",
+        "note": "Public HQ MP3 preview of the selected recording; not the original M4A download. Decoded to mono 44.1 kHz WAV for editing.",
+        "segments_seconds": [
+          [
+            1.705,
+            2.38
+          ],
+          [
+            3.62,
+            4.16
+          ]
+        ],
+        "crossfade_seconds": 0.04,
+        "pitch_changed": false,
+        "time_stretch": false
+      }
+    ]
+  },
+  "wave_clear": {
+    "revision": 5,
+    "source": "Sonicsheep / Freesound 479310, CC0, user-selected real shofar recording",
+    "prompt": null,
+    "gain_db": -8,
+    "checks": [
+      {
+        "duration": 1.345,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak_db": -3.0,
+        "rms_db": -16.21
+      }
+    ],
+    "sources": [
+      {
+        "title": "shofar blast medium length two tone.m4a",
+        "author": "Sonicsheep",
+        "page": "https://freesound.org/people/Sonicsheep/sounds/479310/",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "downloaded_file": "https://cdn.freesound.org/previews/479/479310_9802687-hq.mp3",
+        "note": "Public HQ MP3 preview of the selected recording; not the original M4A download. Decoded to mono 44.1 kHz WAV for editing.",
+        "segments_seconds": [
+          [
+            1.705,
+            2.55
+          ],
+          [
+            3.62,
+            4.16
+          ]
+        ],
+        "crossfade_seconds": 0.04,
+        "pitch_changed": false,
+        "time_stretch": false
+      }
+    ]
+  }
+}

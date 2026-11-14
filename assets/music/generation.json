@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01_last_bastion.wav",
+    "title": "Последний Бастион",
+    "requested_bpm": 140,
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Death Metal, Genre: Groove Metal, Genre: Video Game Music. A brutal dark fantasy siege battle soundtrack. Downtuned distorted rhythm guitars play a memorable, menacing palm-muted riff with heavy syncopated accents. Thick gritty bass, punchy acoustic drums, tight double-kick bursts and crushing half-time grooves. A faint pipe organ adds ancient gothic dread behind the guitars. Grim, martial, relentless and defiant. Riff-driven instrumental arrangement, controlled cymbals, clear drum transients and tight low end. Steady combat energy, recurring eight-bar phrases, short transitions, built to loop under gameplay. No vocals, no guitar solos, no long intro or fade-out. 140 BPM.",
+    "seed": 261114,
+    "duration": 120,
+    "model": "medium",
+    "steps": 8
+  },
+  {
+    "file": "02_dead_at_the_gates.wav",
+    "title": "Мёртвые у ворот",
+    "requested_bpm": 170,
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Death Metal, Genre: Thrash Metal, Genre: Video Game Music. A relentless undead assault on a ruined medieval fortress. Low-tuned guitars alternate fast tremolo-picked minor-key riffs with savage palm-muted gallops. Grinding bass, driving double-bass drums, sharp snare hits and brief blast-beat accents. Subtle ominous pipe organ underneath the band. Vicious, urgent and oppressive, with a stubborn feeling of resistance. A compact recurring guitar motif anchors the track. Tight articulate production, restrained cymbal wash, consistent high energy and repeating eight-bar sections for gameplay looping. Entirely instrumental, no vocals, no extended solos, no ambient intro or fade-out. 170 BPM.",
+    "seed": 261115,
+    "duration": 120,
+    "model": "medium",
+    "steps": 8
+  },
+  {
+    "file": "03_the_butcher.wav",
+    "title": "Мясник",
+    "requested_bpm": 120,
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Death Metal, Genre: Doom Metal, Genre: Groove Metal. A monstrous executioner boss approaching through the gates of a gothic fortress. Extremely heavy downtuned guitars, crushing syncopated chugs, sinister chromatic riffs and short dissonant sustained chords. Huge gritty bass, pounding floor toms, hard snare accents and sudden double-kick bursts over a lumbering half-time groove. Deep pipe organ notes reinforce the dread. Brutal, predatory, suffocating and colossal. A simple recurring rhythmic hook, brief breaks followed by devastating full-band impacts. Tight low end and clearly separated instruments. Loop-oriented boss battle instrumental, no vocals, no solos, no long intro or fade-out. 120 BPM.",
+    "seed": 261116,
+    "duration": 120,
+    "model": "medium",
+    "steps": 8
+  },
+  {
+    "file": "04_before_the_siege.wav",
+    "title": "Перед осадой",
+    "requested_bpm": 80,
+    "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Doom Metal, Genre: Dark Ambient, Genre: Video Game Music. An exhausted garrison prepares a gothic stone fortress for the next undead siege. Sparse low distorted guitar chords with long dark sustain, muted bass pulses, distant floor toms and a subdued pipe organ playing a simple mournful minor-key motif. Heavy, ominous and restrained, with a quiet sense of resolve. Spacious arrangement, soft percussion and gently repeating phrases. The guitars retain a rough metallic texture while leaving room for thought. Instrumental background music built to loop, no vocals, no sudden loud hits, no virtuosic solos or dramatic finale. 80 BPM.",
+    "seed": 261117,
+    "duration": 120,
+    "model": "medium",
+    "steps": 8
+  }
+]

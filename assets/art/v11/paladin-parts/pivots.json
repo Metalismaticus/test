@@ -1,0 +1,543 @@
+{
+  "version": 1,
+  "coordinates": "pixels; origin top-left; x right; y down; positive rotation clockwise",
+  "reference_size": [
+    1024,
+    1024
+  ],
+  "part_size": [
+    512,
+    512
+  ],
+  "rest_foot_line_y": 900,
+  "front_definition": "near arm with mace, viewer left; back arm with shield, viewer right",
+  "draw_order_back_to_front": [
+    "cape-3",
+    "cape-2",
+    "cape-1",
+    "shin-back",
+    "thigh-back",
+    "upper-arm-back",
+    "forearm-back",
+    "shin-front",
+    "thigh-front",
+    "pelvis",
+    "head",
+    "torso",
+    "shield",
+    "upper-arm-front",
+    "mace",
+    "forearm-front"
+  ],
+  "parts": {
+    "head": {
+      "file": "head.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        258,
+        323
+      ],
+      "content_bbox": [
+        191,
+        173,
+        320,
+        338
+      ],
+      "parent": "torso",
+      "rest_world_px": [
+        536.0,
+        335.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 10,
+      "rest_offset_from_parent_pivot_px": [
+        15.0,
+        -205.0
+      ],
+      "attachment_in_parent_file_px": [
+        271.0,
+        150.0
+      ]
+    },
+    "torso": {
+      "file": "torso.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        355
+      ],
+      "content_bbox": [
+        155,
+        126,
+        356,
+        386
+      ],
+      "parent": "pelvis",
+      "rest_world_px": [
+        521.0,
+        540.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 11,
+      "rest_offset_from_parent_pivot_px": [
+        0.0,
+        -25.0
+      ],
+      "attachment_in_parent_file_px": [
+        256.0,
+        155.0
+      ]
+    },
+    "pelvis": {
+      "file": "pelvis.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        180
+      ],
+      "content_bbox": [
+        174,
+        153,
+        338,
+        358
+      ],
+      "parent": null,
+      "rest_world_px": [
+        521.0,
+        565.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 9,
+      "rest_offset_from_parent_pivot_px": [
+        521.0,
+        565.0
+      ],
+      "attachment_in_parent_file_px": null
+    },
+    "shield": {
+      "file": "shield.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        236
+      ],
+      "content_bbox": [
+        147,
+        61,
+        365,
+        451
+      ],
+      "parent": "forearm-back",
+      "rest_world_px": [
+        660.4,
+        569.3
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 12,
+      "rest_offset_from_parent_pivot_px": [
+        0.0,
+        114.29999999999995
+      ],
+      "attachment_in_parent_file_px": [
+        256.0,
+        308.29999999999995
+      ]
+    },
+    "upper-arm-front": {
+      "file": "upper-arm-front.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        299,
+        241
+      ],
+      "content_bbox": [
+        180,
+        146,
+        332,
+        366
+      ],
+      "parent": "torso",
+      "rest_world_px": [
+        456.0,
+        365.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 13,
+      "rest_offset_from_parent_pivot_px": [
+        -65.0,
+        -175.0
+      ],
+      "attachment_in_parent_file_px": [
+        191.0,
+        180.0
+      ]
+    },
+    "forearm-front": {
+      "file": "forearm-front.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        191
+      ],
+      "content_bbox": [
+        218,
+        168,
+        293,
+        343
+      ],
+      "parent": "upper-arm-front",
+      "rest_world_px": [
+        385.64,
+        468.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 15,
+      "rest_offset_from_parent_pivot_px": [
+        -70.36000000000001,
+        103.0
+      ],
+      "attachment_in_parent_file_px": [
+        228.64,
+        344.0
+      ]
+    },
+    "upper-arm-back": {
+      "file": "upper-arm-back.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        220,
+        246
+      ],
+      "content_bbox": [
+        191,
+        156,
+        321,
+        356
+      ],
+      "parent": "torso",
+      "rest_world_px": [
+        601.0,
+        365.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 5,
+      "rest_offset_from_parent_pivot_px": [
+        80.0,
+        -175.0
+      ],
+      "attachment_in_parent_file_px": [
+        336.0,
+        180.0
+      ]
+    },
+    "forearm-back": {
+      "file": "forearm-back.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        194
+      ],
+      "content_bbox": [
+        221,
+        173,
+        291,
+        338
+      ],
+      "parent": "upper-arm-back",
+      "rest_world_px": [
+        660.4,
+        455.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 6,
+      "rest_offset_from_parent_pivot_px": [
+        59.39999999999998,
+        90.0
+      ],
+      "attachment_in_parent_file_px": [
+        279.4,
+        336.0
+      ]
+    },
+    "thigh-front": {
+      "file": "thigh-front.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        184
+      ],
+      "content_bbox": [
+        200,
+        161,
+        311,
+        351
+      ],
+      "parent": "pelvis",
+      "rest_world_px": [
+        471.0,
+        595.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 8,
+      "rest_offset_from_parent_pivot_px": [
+        -50.0,
+        30.0
+      ],
+      "attachment_in_parent_file_px": [
+        206.0,
+        210.0
+      ]
+    },
+    "shin-front": {
+      "file": "shin-front.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        251,
+        185
+      ],
+      "content_bbox": [
+        214,
+        163,
+        297,
+        348
+      ],
+      "parent": "thigh-front",
+      "rest_world_px": [
+        470.5,
+        737.3
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 7,
+      "rest_offset_from_parent_pivot_px": [
+        -0.5,
+        142.29999999999995
+      ],
+      "attachment_in_parent_file_px": [
+        255.5,
+        326.29999999999995
+      ]
+    },
+    "thigh-back": {
+      "file": "thigh-back.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        256,
+        184
+      ],
+      "content_bbox": [
+        201,
+        161,
+        310,
+        351
+      ],
+      "parent": "pelvis",
+      "rest_world_px": [
+        591.0,
+        595.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 4,
+      "rest_offset_from_parent_pivot_px": [
+        70.0,
+        30.0
+      ],
+      "attachment_in_parent_file_px": [
+        326.0,
+        210.0
+      ]
+    },
+    "shin-back": {
+      "file": "shin-back.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        251,
+        185
+      ],
+      "content_bbox": [
+        207,
+        163,
+        305,
+        348
+      ],
+      "parent": "thigh-back",
+      "rest_world_px": [
+        590.5,
+        737.3
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 3,
+      "rest_offset_from_parent_pivot_px": [
+        -0.5,
+        142.29999999999995
+      ],
+      "attachment_in_parent_file_px": [
+        255.5,
+        326.29999999999995
+      ]
+    },
+    "mace": {
+      "file": "mace.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        294,
+        179
+      ],
+      "content_bbox": [
+        178,
+        136,
+        333,
+        376
+      ],
+      "parent": "forearm-front",
+      "rest_world_px": [
+        385.14,
+        590.25
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 14,
+      "rest_offset_from_parent_pivot_px": [
+        -0.5,
+        122.25
+      ],
+      "attachment_in_parent_file_px": [
+        255.5,
+        313.25
+      ]
+    },
+    "cape-1": {
+      "file": "cape-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        288,
+        179
+      ],
+      "content_bbox": [
+        147,
+        146,
+        364,
+        366
+      ],
+      "parent": "torso",
+      "rest_world_px": [
+        421.0,
+        340.0
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 2,
+      "rest_offset_from_parent_pivot_px": [
+        -100.0,
+        -200.0
+      ],
+      "attachment_in_parent_file_px": [
+        156.0,
+        155.0
+      ]
+    },
+    "cape-2": {
+      "file": "cape-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        267,
+        179
+      ],
+      "content_bbox": [
+        144,
+        143,
+        368,
+        368
+      ],
+      "parent": "cape-1",
+      "rest_world_px": [
+        377.65,
+        454.4
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 1,
+      "rest_offset_from_parent_pivot_px": [
+        -43.35000000000002,
+        114.39999999999998
+      ],
+      "attachment_in_parent_file_px": [
+        244.64999999999998,
+        293.4
+      ]
+    },
+    "cape-3": {
+      "file": "cape-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot_px": [
+        259,
+        179
+      ],
+      "content_bbox": [
+        169,
+        143,
+        342,
+        368
+      ],
+      "parent": "cape-2",
+      "rest_world_px": [
+        350.97,
+        566.9
+      ],
+      "rest_rotation_deg": 0,
+      "draw_order": 0,
+      "rest_offset_from_parent_pivot_px": [
+        -26.67999999999995,
+        112.5
+      ],
+      "attachment_in_parent_file_px": [
+        240.32000000000005,
+        291.5
+      ]
+    }
+  }
+}

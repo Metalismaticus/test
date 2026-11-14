@@ -1,0 +1,130 @@
+{
+  "native_width": 64,
+  "native_cap_height": 48,
+  "parts": {
+    "track": {
+      "top": {
+        "file": "parts/track-top.png",
+        "size": [
+          64,
+          48
+        ]
+      },
+      "middle": {
+        "file": "parts/track-middle.png",
+        "size": [
+          64,
+          224
+        ]
+      },
+      "bottom": {
+        "file": "parts/track-bottom.png",
+        "size": [
+          64,
+          48
+        ]
+      }
+    },
+    "thumb-normal": {
+      "top": {
+        "file": "parts/thumb-normal-top.png",
+        "size": [
+          64,
+          48
+        ]
+      },
+      "middle": {
+        "file": "parts/thumb-normal-middle.png",
+        "size": [
+          64,
+          224
+        ]
+      },
+      "bottom": {
+        "file": "parts/thumb-normal-bottom.png",
+        "size": [
+          64,
+          48
+        ]
+      }
+    },
+    "thumb-hover": {
+      "top": {
+        "file": "parts/thumb-hover-top.png",
+        "size": [
+          64,
+          48
+        ]
+      },
+      "middle": {
+        "file": "parts/thumb-hover-middle.png",
+        "size": [
+          64,
+          224
+        ]
+      },
+      "bottom": {
+        "file": "parts/thumb-hover-bottom.png",
+        "size": [
+          64,
+          48
+        ]
+      }
+    },
+    "thumb-pressed": {
+      "top": {
+        "file": "parts/thumb-pressed-top.png",
+        "size": [
+          64,
+          48
+        ]
+      },
+      "middle": {
+        "file": "parts/thumb-pressed-middle.png",
+        "size": [
+          64,
+          224
+        ]
+      },
+      "bottom": {
+        "file": "parts/thumb-pressed-bottom.png",
+        "size": [
+          64,
+          48
+        ]
+      }
+    },
+    "thumb-disabled": {
+      "top": {
+        "file": "parts/thumb-disabled-top.png",
+        "size": [
+          64,
+          48
+        ]
+      },
+      "middle": {
+        "file": "parts/thumb-disabled-middle.png",
+        "size": [
+          64,
+          224
+        ]
+      },
+      "bottom": {
+        "file": "parts/thumb-disabled-bottom.png",
+        "size": [
+          64,
+          48
+        ]
+      }
+    }
+  },
+  "recommended_logical_width": 16,
+  "minimum_thumb_height": 28,
+  "sampling": "nearest",
+  "arrows": {
+    "arrow-up": "arrow-up.png",
+    "arrow-down": "arrow-down.png",
+    "arrow-up-pressed": "arrow-up-pressed.png",
+    "arrow-down-pressed": "arrow-down-pressed.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "00_main_theme.wav",
+  "revision": 2,
+  "title": "Последний Бастион — главная тема, быстрый старт",
+  "prompt": "TrackType: Music, VocalType: Instrumental, Genre: Melodic Death Metal, Genre: Gothic Metal, Genre: Groove Metal, Genre: Video Game Music. An immediately gripping main title theme for The Last Bastion, a medieval fortress fighting an undead siege. Start on the very first beat with the full band: a punchy drum crash, driving double-kick drums, massive downtuned rhythm guitars and a bold memorable four-note minor-key guitar hook. The main melody is clearly audible within the first two seconds. A dark cathedral pipe organ doubles and answers the guitar melody inside the full-band arrangement from the beginning. Tight palm-muted chugs, galloping bass, aggressive snare accents and powerful forward momentum. Brutal, catchy, defiant and battle-ready, dark heroic energy. Repeat and develop the memorable hook with compact rhythmic variations, keep the drums and guitar groove moving throughout. Strong chorus-like instrumental returns, concise transitions, exciting rhythmic accents. Thick articulate guitar tone, tight low end and controlled cymbals. Immediate full-energy opening, no atmospheric introduction, no solo organ introduction, no slow build, no quiet ambient breakdown, no vocals or choir. 144 BPM.",
+  "seed": 261211,
+  "duration": 120,
+  "steps": 8,
+  "model": "medium",
+  "requested_bpm": 144,
+  "actual_duration": 120.0,
+  "trimmed_leading_seconds": 0.0,
+  "opening_rms_db": [
+    -15.11,
+    -16.09,
+    -14.93,
+    -15.59,
+    -16.63,
+    -16.18,
+    -15.2,
+    -15.55,
+    -15.52,
+    -15.3
+  ]
+}

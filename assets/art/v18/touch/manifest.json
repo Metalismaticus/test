@@ -1,0 +1,677 @@
+{
+  "cell": [
+    256,
+    256
+  ],
+  "atlas_grid": [
+    8,
+    5
+  ],
+  "states": [
+    "normal",
+    "pressed",
+    "disabled",
+    "selected"
+  ],
+  "buttons": {
+    "knight-attack": {
+      "index": 0,
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/knight-attack/normal.png",
+        "pressed": "buttons/knight-attack/pressed.png",
+        "disabled": "buttons/knight-attack/disabled.png",
+        "selected": "buttons/knight-attack/selected.png"
+      },
+      "glyph": "glyphs/knight-attack.png"
+    },
+    "knight-whirlwind": {
+      "index": 1,
+      "rect": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/knight-whirlwind/normal.png",
+        "pressed": "buttons/knight-whirlwind/pressed.png",
+        "disabled": "buttons/knight-whirlwind/disabled.png",
+        "selected": "buttons/knight-whirlwind/selected.png"
+      },
+      "glyph": "glyphs/knight-whirlwind.png"
+    },
+    "knight-dash": {
+      "index": 2,
+      "rect": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/knight-dash/normal.png",
+        "pressed": "buttons/knight-dash/pressed.png",
+        "disabled": "buttons/knight-dash/disabled.png",
+        "selected": "buttons/knight-dash/selected.png"
+      },
+      "glyph": "glyphs/knight-dash.png"
+    },
+    "heal": {
+      "index": 3,
+      "rect": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/heal/normal.png",
+        "pressed": "buttons/heal/pressed.png",
+        "disabled": "buttons/heal/disabled.png",
+        "selected": "buttons/heal/selected.png"
+      },
+      "glyph": "glyphs/heal.png"
+    },
+    "mage-attack": {
+      "index": 4,
+      "rect": [
+        1024,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/mage-attack/normal.png",
+        "pressed": "buttons/mage-attack/pressed.png",
+        "disabled": "buttons/mage-attack/disabled.png",
+        "selected": "buttons/mage-attack/selected.png"
+      },
+      "glyph": "glyphs/mage-attack.png"
+    },
+    "mage-fireball": {
+      "index": 5,
+      "rect": [
+        1280,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/mage-fireball/normal.png",
+        "pressed": "buttons/mage-fireball/pressed.png",
+        "disabled": "buttons/mage-fireball/disabled.png",
+        "selected": "buttons/mage-fireball/selected.png"
+      },
+      "glyph": "glyphs/mage-fireball.png"
+    },
+    "mage-frost": {
+      "index": 6,
+      "rect": [
+        1536,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/mage-frost/normal.png",
+        "pressed": "buttons/mage-frost/pressed.png",
+        "disabled": "buttons/mage-frost/disabled.png",
+        "selected": "buttons/mage-frost/selected.png"
+      },
+      "glyph": "glyphs/mage-frost.png"
+    },
+    "aim": {
+      "index": 7,
+      "rect": [
+        1792,
+        0,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/aim/normal.png",
+        "pressed": "buttons/aim/pressed.png",
+        "disabled": "buttons/aim/disabled.png",
+        "selected": "buttons/aim/selected.png"
+      },
+      "glyph": "glyphs/aim.png"
+    },
+    "archer-attack": {
+      "index": 8,
+      "rect": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/archer-attack/normal.png",
+        "pressed": "buttons/archer-attack/pressed.png",
+        "disabled": "buttons/archer-attack/disabled.png",
+        "selected": "buttons/archer-attack/selected.png"
+      },
+      "glyph": "glyphs/archer-attack.png"
+    },
+    "archer-arrow-rain": {
+      "index": 9,
+      "rect": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/archer-arrow-rain/normal.png",
+        "pressed": "buttons/archer-arrow-rain/pressed.png",
+        "disabled": "buttons/archer-arrow-rain/disabled.png",
+        "selected": "buttons/archer-arrow-rain/selected.png"
+      },
+      "glyph": "glyphs/archer-arrow-rain.png"
+    },
+    "archer-backstep": {
+      "index": 10,
+      "rect": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/archer-backstep/normal.png",
+        "pressed": "buttons/archer-backstep/pressed.png",
+        "disabled": "buttons/archer-backstep/disabled.png",
+        "selected": "buttons/archer-backstep/selected.png"
+      },
+      "glyph": "glyphs/archer-backstep.png"
+    },
+    "interact": {
+      "index": 11,
+      "rect": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/interact/normal.png",
+        "pressed": "buttons/interact/pressed.png",
+        "disabled": "buttons/interact/disabled.png",
+        "selected": "buttons/interact/selected.png"
+      },
+      "glyph": "glyphs/interact.png"
+    },
+    "paladin-attack": {
+      "index": 12,
+      "rect": [
+        1024,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/paladin-attack/normal.png",
+        "pressed": "buttons/paladin-attack/pressed.png",
+        "disabled": "buttons/paladin-attack/disabled.png",
+        "selected": "buttons/paladin-attack/selected.png"
+      },
+      "glyph": "glyphs/paladin-attack.png"
+    },
+    "paladin-holy-light": {
+      "index": 13,
+      "rect": [
+        1280,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/paladin-holy-light/normal.png",
+        "pressed": "buttons/paladin-holy-light/pressed.png",
+        "disabled": "buttons/paladin-holy-light/disabled.png",
+        "selected": "buttons/paladin-holy-light/selected.png"
+      },
+      "glyph": "glyphs/paladin-holy-light.png"
+    },
+    "paladin-judgment": {
+      "index": 14,
+      "rect": [
+        1536,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/paladin-judgment/normal.png",
+        "pressed": "buttons/paladin-judgment/pressed.png",
+        "disabled": "buttons/paladin-judgment/disabled.png",
+        "selected": "buttons/paladin-judgment/selected.png"
+      },
+      "glyph": "glyphs/paladin-judgment.png"
+    },
+    "cancel-aim": {
+      "index": 15,
+      "rect": [
+        1792,
+        256,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/cancel-aim/normal.png",
+        "pressed": "buttons/cancel-aim/pressed.png",
+        "disabled": "buttons/cancel-aim/disabled.png",
+        "selected": "buttons/cancel-aim/selected.png"
+      },
+      "glyph": "glyphs/cancel-aim.png"
+    },
+    "build": {
+      "index": 16,
+      "rect": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/build/normal.png",
+        "pressed": "buttons/build/pressed.png",
+        "disabled": "buttons/build/disabled.png",
+        "selected": "buttons/build/selected.png"
+      },
+      "glyph": "glyphs/build.png"
+    },
+    "talents": {
+      "index": 17,
+      "rect": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/talents/normal.png",
+        "pressed": "buttons/talents/pressed.png",
+        "disabled": "buttons/talents/disabled.png",
+        "selected": "buttons/talents/selected.png"
+      },
+      "glyph": "glyphs/talents.png"
+    },
+    "wave": {
+      "index": 18,
+      "rect": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/wave/normal.png",
+        "pressed": "buttons/wave/pressed.png",
+        "disabled": "buttons/wave/disabled.png",
+        "selected": "buttons/wave/selected.png"
+      },
+      "glyph": "glyphs/wave.png"
+    },
+    "follow": {
+      "index": 19,
+      "rect": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/follow/normal.png",
+        "pressed": "buttons/follow/pressed.png",
+        "disabled": "buttons/follow/disabled.png",
+        "selected": "buttons/follow/selected.png"
+      },
+      "glyph": "glyphs/follow.png"
+    },
+    "rally": {
+      "index": 20,
+      "rect": [
+        1024,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/rally/normal.png",
+        "pressed": "buttons/rally/pressed.png",
+        "disabled": "buttons/rally/disabled.png",
+        "selected": "buttons/rally/selected.png"
+      },
+      "glyph": "glyphs/rally.png"
+    },
+    "pause": {
+      "index": 21,
+      "rect": [
+        1280,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/pause/normal.png",
+        "pressed": "buttons/pause/pressed.png",
+        "disabled": "buttons/pause/disabled.png",
+        "selected": "buttons/pause/selected.png"
+      },
+      "glyph": "glyphs/pause.png"
+    },
+    "sound": {
+      "index": 22,
+      "rect": [
+        1536,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/sound/normal.png",
+        "pressed": "buttons/sound/pressed.png",
+        "disabled": "buttons/sound/disabled.png",
+        "selected": "buttons/sound/selected.png"
+      },
+      "glyph": "glyphs/sound.png"
+    },
+    "mute": {
+      "index": 23,
+      "rect": [
+        1792,
+        512,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/mute/normal.png",
+        "pressed": "buttons/mute/pressed.png",
+        "disabled": "buttons/mute/disabled.png",
+        "selected": "buttons/mute/selected.png"
+      },
+      "glyph": "glyphs/mute.png"
+    },
+    "settings": {
+      "index": 24,
+      "rect": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/settings/normal.png",
+        "pressed": "buttons/settings/pressed.png",
+        "disabled": "buttons/settings/disabled.png",
+        "selected": "buttons/settings/selected.png"
+      },
+      "glyph": "glyphs/settings.png"
+    },
+    "save": {
+      "index": 25,
+      "rect": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/save/normal.png",
+        "pressed": "buttons/save/pressed.png",
+        "disabled": "buttons/save/disabled.png",
+        "selected": "buttons/save/selected.png"
+      },
+      "glyph": "glyphs/save.png"
+    },
+    "home": {
+      "index": 26,
+      "rect": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/home/normal.png",
+        "pressed": "buttons/home/pressed.png",
+        "disabled": "buttons/home/disabled.png",
+        "selected": "buttons/home/selected.png"
+      },
+      "glyph": "glyphs/home.png"
+    },
+    "back": {
+      "index": 27,
+      "rect": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/back/normal.png",
+        "pressed": "buttons/back/pressed.png",
+        "disabled": "buttons/back/disabled.png",
+        "selected": "buttons/back/selected.png"
+      },
+      "glyph": "glyphs/back.png"
+    },
+    "confirm": {
+      "index": 28,
+      "rect": [
+        1024,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/confirm/normal.png",
+        "pressed": "buttons/confirm/pressed.png",
+        "disabled": "buttons/confirm/disabled.png",
+        "selected": "buttons/confirm/selected.png"
+      },
+      "glyph": "glyphs/confirm.png"
+    },
+    "close": {
+      "index": 29,
+      "rect": [
+        1280,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/close/normal.png",
+        "pressed": "buttons/close/pressed.png",
+        "disabled": "buttons/close/disabled.png",
+        "selected": "buttons/close/selected.png"
+      },
+      "glyph": "glyphs/close.png"
+    },
+    "map": {
+      "index": 30,
+      "rect": [
+        1536,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/map/normal.png",
+        "pressed": "buttons/map/pressed.png",
+        "disabled": "buttons/map/disabled.png",
+        "selected": "buttons/map/selected.png"
+      },
+      "glyph": "glyphs/map.png"
+    },
+    "help": {
+      "index": 31,
+      "rect": [
+        1792,
+        768,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/help/normal.png",
+        "pressed": "buttons/help/pressed.png",
+        "disabled": "buttons/help/disabled.png",
+        "selected": "buttons/help/selected.png"
+      },
+      "glyph": "glyphs/help.png"
+    },
+    "play": {
+      "index": 32,
+      "rect": [
+        0,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/play/normal.png",
+        "pressed": "buttons/play/pressed.png",
+        "disabled": "buttons/play/disabled.png",
+        "selected": "buttons/play/selected.png"
+      },
+      "glyph": "glyphs/play.png"
+    },
+    "plus": {
+      "index": 33,
+      "rect": [
+        256,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/plus/normal.png",
+        "pressed": "buttons/plus/pressed.png",
+        "disabled": "buttons/plus/disabled.png",
+        "selected": "buttons/plus/selected.png"
+      },
+      "glyph": "glyphs/plus.png"
+    },
+    "minus": {
+      "index": 34,
+      "rect": [
+        512,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/minus/normal.png",
+        "pressed": "buttons/minus/pressed.png",
+        "disabled": "buttons/minus/disabled.png",
+        "selected": "buttons/minus/selected.png"
+      },
+      "glyph": "glyphs/minus.png"
+    },
+    "left": {
+      "index": 35,
+      "rect": [
+        768,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/left/normal.png",
+        "pressed": "buttons/left/pressed.png",
+        "disabled": "buttons/left/disabled.png",
+        "selected": "buttons/left/selected.png"
+      },
+      "glyph": "glyphs/left.png"
+    },
+    "right": {
+      "index": 36,
+      "rect": [
+        1024,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/right/normal.png",
+        "pressed": "buttons/right/pressed.png",
+        "disabled": "buttons/right/disabled.png",
+        "selected": "buttons/right/selected.png"
+      },
+      "glyph": "glyphs/right.png"
+    },
+    "reset": {
+      "index": 37,
+      "rect": [
+        1280,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/reset/normal.png",
+        "pressed": "buttons/reset/pressed.png",
+        "disabled": "buttons/reset/disabled.png",
+        "selected": "buttons/reset/selected.png"
+      },
+      "glyph": "glyphs/reset.png"
+    },
+    "language": {
+      "index": 38,
+      "rect": [
+        1536,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/language/normal.png",
+        "pressed": "buttons/language/pressed.png",
+        "disabled": "buttons/language/disabled.png",
+        "selected": "buttons/language/selected.png"
+      },
+      "glyph": "glyphs/language.png"
+    },
+    "quit": {
+      "index": 39,
+      "rect": [
+        1792,
+        1024,
+        256,
+        256
+      ],
+      "files": {
+        "normal": "buttons/quit/normal.png",
+        "pressed": "buttons/quit/pressed.png",
+        "disabled": "buttons/quit/disabled.png",
+        "selected": "buttons/quit/selected.png"
+      },
+      "glyph": "glyphs/quit.png"
+    }
+  },
+  "joystick": {
+    "base": "joystick-base.png",
+    "thumb": "joystick-thumb.png",
+    "base_size": [
+      256,
+      256
+    ],
+    "thumb_size": [
+      96,
+      96
+    ]
+  },
+  "note": "Art kit only; cooldown numbers and sectors are runtime overlays.",
+  "atlases": {
+    "normal": "atlases/normal.png",
+    "pressed": "atlases/pressed.png",
+    "disabled": "atlases/disabled.png",
+    "selected": "atlases/selected.png"
+  }
+}

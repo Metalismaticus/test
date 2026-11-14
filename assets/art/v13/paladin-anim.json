@@ -1,0 +1,298 @@
+{
+ "comment": "Cut-out paladin animation (v13 parts cut from the painted idle frame). All angles 0 = the painted combat stance; every value is a change from it. Degrees, counter-clockwise positive, figure faces right. 'shield' is the shield's tilt in the world. lift_x/lift_y move the pelvis (reference px of the 724 frame); feet are put back on the ground automatically. 'body' turns the whole figure about its feet. Preview: python tools/puppet-preview.py out.png",
+ "screen_scale": 0.1685,
+ "scale": {},
+ "guard": {},
+ "hurt": {
+  "torso": 12,
+  "head": 14,
+  "upper-arm-front": -15,
+  "upper-arm-back": -10,
+  "lift_x": -14
+ },
+ "clips": {
+  "idle": {
+   "loop": true,
+   "length": 2.6,
+   "keys": [
+    {
+     "t": 0,
+     "pose": {}
+    },
+    {
+     "t": 0.5,
+     "pose": {
+      "forearm-front": 11,
+      "cape-1": 12,
+      "torso": -2,
+      "lift_y": 10,
+      "head": -2,
+      "cape-2": 2,
+      "cape-3": 1,
+      "upper-arm-front": 10,
+      "forearm-back": -23
+     }
+    }
+   ]
+  },
+  "windup": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {}
+    },
+    {
+     "t": 1,
+     "ease": "out",
+     "pose": {
+      "forearm-front": 12,
+      "cape-1": 8,
+      "pelvis": 2,
+      "thigh-front": 6,
+      "mace": 11,
+      "thigh-back": -10,
+      "torso": 15,
+      "shin-front": -4,
+      "upper-arm-back": -6,
+      "shield": 2,
+      "shin-back": 10,
+      "head": -8,
+      "upper-arm-front": 181,
+      "forearm-back": -3
+     }
+    }
+   ]
+  },
+  "swing": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {
+      "forearm-front": 12,
+      "cape-1": 8,
+      "pelvis": 2,
+      "thigh-front": 6,
+      "mace": 11,
+      "thigh-back": -10,
+      "torso": 15,
+      "shin-front": -4,
+      "upper-arm-back": -6,
+      "shield": 2,
+      "shin-back": 10,
+      "head": -8,
+      "upper-arm-front": 181,
+      "forearm-back": -3
+     }
+    },
+    {
+     "t": 0.25,
+     "ease": "in",
+     "pose": {
+      "forearm-front": -8,
+      "cape-1": 32,
+      "pelvis": -14,
+      "thigh-front": 18,
+      "mace": -29,
+      "thigh-back": 30,
+      "torso": -17,
+      "lift_y": -20,
+      "shin-front": -14,
+      "upper-arm-back": 29,
+      "shield": -4,
+      "shin-back": -30,
+      "lift_x": 34,
+      "head": 26,
+      "cape-2": 16,
+      "cape-3": 18,
+      "upper-arm-front": 91,
+      "forearm-back": 2
+     }
+    },
+    {
+     "t": 0.6,
+     "pose": {
+      "forearm-front": -8,
+      "cape-1": 14,
+      "pelvis": -14,
+      "thigh-front": 18,
+      "mace": -29,
+      "thigh-back": 30,
+      "torso": -15,
+      "lift_y": -20,
+      "shin-front": -14,
+      "upper-arm-back": 29,
+      "shield": -4,
+      "shin-back": -30,
+      "lift_x": 34,
+      "head": 26,
+      "cape-2": 6,
+      "cape-3": 8,
+      "upper-arm-front": 89,
+      "forearm-back": 2
+     }
+    },
+    {
+     "t": 1,
+     "pose": {}
+    }
+   ]
+  },
+  "cast0": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {}
+    },
+    {
+     "t": 0.3,
+     "ease": "out",
+     "pose": {
+      "upper-arm-back": 0,
+      "forearm-back": 115,
+      "head": 6,
+      "torso": 4,
+      "thigh-back": 6,
+      "shin-back": -6
+     }
+    },
+    {
+     "t": 0.8,
+     "pose": {
+      "upper-arm-back": 0,
+      "forearm-back": 115,
+      "head": 6,
+      "torso": 4,
+      "thigh-back": 6,
+      "shin-back": -6
+     }
+    },
+    {
+     "t": 1,
+     "pose": {}
+    }
+   ]
+  },
+  "cast1": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {}
+    },
+    {
+     "t": 0.25,
+     "ease": "out",
+     "pose": {
+      "forearm-front": 32,
+      "mace": -24,
+      "torso": 10,
+      "upper-arm-back": 44,
+      "head": 4,
+      "upper-arm-front": 156
+     }
+    },
+    {
+     "t": 0.8,
+     "pose": {
+      "forearm-front": 32,
+      "mace": -24,
+      "torso": 10,
+      "upper-arm-back": 44,
+      "head": 6,
+      "upper-arm-front": 156
+     }
+    },
+    {
+     "t": 1,
+     "pose": {}
+    }
+   ]
+  },
+  "dash": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {
+      "torso": -16,
+      "head": 14,
+      "pelvis": -6,
+      "forearm-front": 80,
+      "mace": -80,
+      "upper-arm-front": 15,
+      "cape-1": -35,
+      "cape-2": -12,
+      "cape-3": -12,
+      "thigh-front": -25,
+      "shin-front": 10,
+      "thigh-back": 25,
+      "shin-back": -20
+     }
+    },
+    {
+     "t": 1,
+     "pose": {
+      "torso": -16,
+      "head": 14,
+      "pelvis": -6,
+      "forearm-front": 80,
+      "mace": -80,
+      "upper-arm-front": 15,
+      "cape-1": -35,
+      "cape-2": -12,
+      "cape-3": -12,
+      "thigh-front": -25,
+      "shin-front": 10,
+      "thigh-back": 25,
+      "shin-back": -20
+     }
+    }
+   ]
+  },
+  "dead": {
+   "keys": [
+    {
+     "t": 0,
+     "pose": {}
+    },
+    {
+     "t": 0.35,
+     "pose": {
+      "forearm-front": 2,
+      "pelvis": -1,
+      "thigh-front": 106,
+      "mace": -44,
+      "thigh-back": 35,
+      "torso": -7,
+      "shin-front": -124,
+      "upper-arm-back": -6,
+      "shin-back": -50,
+      "head": 13,
+      "upper-arm-front": 26,
+      "forearm-back": -23
+     }
+    },
+    {
+     "t": 1,
+     "ease": "in",
+     "pose": {
+      "forearm-front": -18,
+      "cape-1": 42,
+      "pelvis": -41,
+      "thigh-front": 151,
+      "mace": -44,
+      "thigh-back": 75,
+      "torso": -37,
+      "shin-front": -184,
+      "upper-arm-back": 104,
+      "shield": -26,
+      "shin-back": -115,
+      "head": 28,
+      "cape-2": 18,
+      "cape-3": 18,
+      "upper-arm-front": 116,
+      "forearm-back": -98
+     }
+    }
+   ]
+  }
+ }
+}

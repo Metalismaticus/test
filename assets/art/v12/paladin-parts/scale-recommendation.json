@@ -1,0 +1,20 @@
+{
+  "scale": {
+    "head": 1.08,
+    "torso": 0.9,
+    "pelvis": 1.0,
+    "shield": 0.95,
+    "upper-arm-front": 1.05,
+    "forearm-front": 0.9,
+    "upper-arm-back": 1.0,
+    "forearm-back": 0.9,
+    "thigh-front": 0.78,
+    "shin-front": 0.78,
+    "thigh-back": 0.78,
+    "shin-back": 0.78,
+    "mace": 1.05,
+    "cape-1": 0.5,
+    "cape-2": 0.5,
+    "cape-3": 0.5
+  }
+}

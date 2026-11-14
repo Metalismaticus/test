@@ -1,0 +1,26 @@
+[
+  {
+    "name": "portraits",
+    "alpha": true,
+    "refs": [
+      "S:/MiniGame/assets/art/v3/knight.png",
+      "S:/MiniGame/assets/art/v3/mage.png",
+      "S:/MiniGame/assets/art/v3/archer.png",
+      "S:/MiniGame/assets/art/v3/paladin.png"
+    ],
+    "prompt": "Create a production mini-portrait atlas for Last Bastion. PNG requested EXACT2048x1200, aspect128:75, precise4columns x2rows, eachcell512x600. References1-4 are identity references knight mage archer paladin. Columns in that order; row1 healthy; row2 same heroes wounded, blood stains on armor or face, cracked helmet or mask, strained posture and lowered gaze. All8 same scale and eyeheight within eachrow. Each cell is a SHIELD-SHAPED MASK filling92% with4% margin: flat top with slightly rounded corners, straight sides down to2/3height then curve toward centered bottompoint. EVERYTHING outside shield alpha0 transparent. NO SHIELD BORDER OR FRAME, existingUI suppliesframe. Inside shield opaque charcoal with faint flat burgundy mottling, NO scenery. Bust portrait in threequarter view FACING RIGHT, head in upperthird, shoulders and chest reach narrowing, lowerbody naturally cropped into shieldpoint. Knight closed long needle wedgecrest helmet, ivory bonearmor, ragged winecape over shoulder. Mage dusty lilac deep hood, face shadow only palechin and tiny bright eyes NOglow, redcrystal staff by shoulder and bonepauldrons. Archer hood, dark mask covers lowerface, wine scarf, redfletched quiver, leather straps. Paladin faceted slithelmet heavy pauldrons, wine tabard with bonecross, edge of crossshield at side. Angular gothic grotesque crisp pixel edges blackcontours, bone219194166 wine871842 charcoal191722 touchvermilion. 3-4flatshades. No blur, gradients,bloom,text,numbers,letters. Exact8 separate portraits, NO border ornament."
+  },
+  {
+    "name": "minimap",
+    "alpha": true,
+    "refs": [
+      "S:/MiniGame/reference/target-screen.png"
+    ],
+    "prompt": "Production minimap icon sprite atlas PNG EXACT1024x1024, precise4x4grid,256squarecells. Truealpha0 transparentbackground. Icons centered and ONLY60-70%ofcell width/height. Must be readable scaled to8-16pixels, VERY SIMPLE BIG silhouettes, thick blackcontour, only2-3flatcolors, no tiny engraving no shadingtextures. Gothic angular pixel graphics bone219194166 wine871842 charcoal191722 vermilion, no bloom blur text or digits. Row1 lefttoright: bone diamond with winecenter (hero); small bone shield(garrison); wine circular skull(enemy); largerwine skull with bone spikecrown(boss). Row2: simple rubblepile with redspark(breach); tiny topdown ballista(towergun); vermilion campfireflame; two gravemarkers onecross. Row3 FOUR FRAMES OF SAME wine angular ARROWHEAD POINTING DOWN: pulse fromdim tobright with bone edge. Identical centeredanchor, slight intensity progression, same downwarddirection all4. Row4: bone rightangle viewportcorner withrivet, vertex pointing to UPPERLEFT ofcell; tiny dark fir; tiny dark leafless tree; tiny darkbush, simple overhead-side silhouettes. No icon touches adjacentcell. No frame aroundindividualicons. Reference is palette/style only, do not copy HUD."
+  },
+  {
+    "name": "minimap-paper",
+    "alpha": false,
+    "prompt": "Create seamless tileable opaque512x512 PNG minimap background. Dark faded old leather/parchment map substrate, charcoal-burgundy neutral, averageRGB34,28,34. Extremely subtle faint stains, wear and fine tiny cracks, lowcontrast. Gothic pixel texture with discrete muted flattones, no blur no gradients no lighting no glow. PERFECTLY SEAMLESS all4edges match, uniformbrightness toedges, no vignette or frame. Absolutely NO map terrain, NO roads, NO long lines, NO symbols, text, letters, numbers or objects. The game will render mapfeatures on top. Plain very dark fine worn substrate, not brown tan parchment."
+  }
+]

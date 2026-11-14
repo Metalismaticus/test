@@ -1,0 +1,77 @@
+{
+  "portraits": {
+    "heroes": [
+      "knight",
+      "mage",
+      "archer",
+      "paladin"
+    ],
+    "size": [
+      512,
+      600
+    ],
+    "healthy": "portrait-{hero}.png",
+    "wounded": "portrait-{hero}-wounded.png",
+    "background_rgb": [
+      29,
+      23,
+      25
+    ],
+    "opaque": true
+  },
+  "paladin_run": {
+    "file": "paladin-run.png",
+    "size": [
+      1448,
+      181
+    ],
+    "grid": [
+      8,
+      1
+    ],
+    "cell": [
+      181,
+      181
+    ],
+    "fps": 16,
+    "ground_y": 165,
+    "flight_frames": [
+      3,
+      7
+    ],
+    "loop": true,
+    "facing": "right",
+    "revision": "ik-study-v5",
+    "hammer_hand": "near",
+    "shield_hand": "far",
+    "preview_speed_px_s": 256,
+    "pose_guide": "originals/paladin-ik-study/poses.png"
+  },
+  "knight_run": {
+    "file": "knight-run.png",
+    "size": [
+      1448,
+      181
+    ],
+    "grid": [
+      8,
+      1
+    ],
+    "cell": [
+      181,
+      181
+    ],
+    "fps": 16,
+    "ground_y": 165,
+    "flight_frames": [
+      3,
+      7
+    ],
+    "loop": true,
+    "facing": "right",
+    "revision": "ik-study-v3",
+    "sword_hand": "far",
+    "pose_guide": "originals/knight-ik-study/poses.png",
+    "preview_speed_px_s": 320
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "fps": 16,
+  "scale": 0.425531914893617,
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        21,
+        28,
+        162,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 28,
+      "phase": "support"
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        27,
+        29,
+        163,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 29,
+      "phase": "support"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        29,
+        28,
+        163,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 28,
+      "phase": "support"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        28,
+        23,
+        164,
+        152
+      ],
+      "lowest_foot_y": 151,
+      "head_top_y": 23,
+      "phase": "flight"
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        29,
+        26,
+        163,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 26,
+      "phase": "support"
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        29,
+        28,
+        163,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 28,
+      "phase": "support"
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        29,
+        28,
+        163,
+        166
+      ],
+      "lowest_foot_y": 165,
+      "head_top_y": 28,
+      "phase": "support"
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        26,
+        23,
+        164,
+        157
+      ],
+      "lowest_foot_y": 156,
+      "head_top_y": 23,
+      "phase": "flight"
+    }
+  ],
+  "note": "Painted poses approximate the IK guide; leg overlap in the two half-strides remains visually similar and needs user review."
+}

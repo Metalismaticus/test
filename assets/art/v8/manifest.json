@@ -1,0 +1,98 @@
+{
+  "file": "spider.png",
+  "size": [
+    3072,
+    1536
+  ],
+  "grid": [
+    8,
+    4
+  ],
+  "cell": [
+    384,
+    384
+  ],
+  "facing": "right",
+  "pivot_px": [
+    192,
+    300
+  ],
+  "suggested_sprite_world_size": [
+    88,
+    88
+  ],
+  "foot_padding_world": 19.25,
+  "unused_indices": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "animations": {
+    "idle": {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_ms": 180,
+      "loop": true
+    },
+    "walk": {
+      "indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "frame_ms": 90,
+      "loop": true
+    },
+    "attack": {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "frame_ms": 100,
+      "loop": false,
+      "impact_index": 18
+    },
+    "hurt": {
+      "indices": [
+        20,
+        21
+      ],
+      "frame_ms": 100,
+      "loop": false
+    },
+    "stun": {
+      "indices": [
+        22,
+        23
+      ],
+      "frame_ms": 180,
+      "loop": true
+    },
+    "death": {
+      "indices": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "frame_ms": 150,
+      "loop": false
+    }
+  }
+}

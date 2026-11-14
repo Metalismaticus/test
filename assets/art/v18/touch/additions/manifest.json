@@ -1,0 +1,40 @@
+{
+  "attack_stick": {
+    "base": "attack-stick-base.png",
+    "base_active": "attack-stick-base-active.png",
+    "thumb": "attack-stick-thumb.png",
+    "thumb_active": "attack-stick-thumb-active.png",
+    "base_size": [
+      256,
+      256
+    ],
+    "thumb_size": [
+      96,
+      96
+    ],
+    "center": [
+      128,
+      128
+    ],
+    "centered_thumb_offset": [
+      80,
+      80
+    ]
+  },
+  "interact": {
+    "normal": "interact.png",
+    "pressed": "interact-pressed.png",
+    "size": [
+      256,
+      256
+    ]
+  },
+  "mute": {
+    "file": "sound-off.png",
+    "size": [
+      256,
+      256
+    ],
+    "reference": "assets/art/v3/hud.png"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "file": "gates.png",
+  "size": [
+    2048,
+    768
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "cell": [
+    512,
+    384
+  ],
+  "pivot_px": [
+    256,
+    342
+  ],
+  "facing": "front, elevated camera",
+  "opening_direction": "inward",
+  "closed_index": 0,
+  "open_index": 7,
+  "animations": {
+    "opening": {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_ms": 100,
+      "loop": false,
+      "hold_last": true
+    },
+    "closing": {
+      "indices": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "frame_ms": 100,
+      "loop": false,
+      "hold_last": true
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "buildings": {
+    "warrior-barracks": {
+      "file": "warrior-barracks.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "pivot_px": [
+        512,
+        900
+      ],
+      "content_bbox": [
+        87,
+        75,
+        937,
+        900
+      ],
+      "camera": "high-angle top-down, entrance south"
+    },
+    "archer-barracks": {
+      "file": "archer-barracks.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "pivot_px": [
+        512,
+        900
+      ],
+      "content_bbox": [
+        96,
+        60,
+        928,
+        900
+      ],
+      "camera": "high-angle top-down, entrance south"
+    }
+  },
+  "character": {
+    "file": "hooded-idle.png",
+    "size": [
+      3072,
+      384
+    ],
+    "grid": [
+      8,
+      1
+    ],
+    "cell": [
+      384,
+      384
+    ],
+    "pivot_px": [
+      192,
+      336
+    ],
+    "facing": "right",
+    "animation": {
+      "name": "idle",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_ms": 250,
+      "loop": true
+    },
+    "preview_apng": "hooded-idle-animated.png"
+  }
+}

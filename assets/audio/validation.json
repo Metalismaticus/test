@@ -1,0 +1,802 @@
+{
+  "event_count": 62,
+  "sfx_count": 128,
+  "music": [
+    {
+      "file": "music/00_main_theme.wav",
+      "seconds": 120.0,
+      "runtime_file": "music/00_main_theme.ogg"
+    },
+    {
+      "file": "music/01_last_bastion.wav",
+      "seconds": 120.0,
+      "runtime_file": "music/01_last_bastion.ogg"
+    },
+    {
+      "file": "music/02_dead_at_the_gates.wav",
+      "seconds": 120.0,
+      "runtime_file": "music/02_dead_at_the_gates.ogg"
+    },
+    {
+      "file": "music/03_the_butcher.wav",
+      "seconds": 120.0,
+      "runtime_file": "music/03_the_butcher.ogg"
+    },
+    {
+      "file": "music/04_before_the_siege.wav",
+      "seconds": 120.0,
+      "runtime_file": "music/04_before_the_siege.ogg"
+    }
+  ],
+  "status": "Technical validation passed. Perceptual audition and in-game mix pending.",
+  "checks": [
+    {
+      "file": "audio/sfx/ui_click_01.wav",
+      "seconds": 0.1,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ui_confirm_01.wav",
+      "seconds": 0.22,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ui_cancel_01.wav",
+      "seconds": 0.18,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ui_error_01.wav",
+      "seconds": 0.22,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/purchase_01.wav",
+      "seconds": 0.5,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/level_up_01.wav",
+      "seconds": 0.2725,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/talent_unlock_01.wav",
+      "seconds": 0.1378,
+      "peak": 0.702789306640625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/order_follow_01.wav",
+      "seconds": 0.25,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/order_hold_01.wav",
+      "seconds": 0.28,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wave_start_01.wav",
+      "seconds": 1.175,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wave_clear_01.wav",
+      "seconds": 1.345,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/breach_alarm_01.wav",
+      "seconds": 2.5,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/keep_alarm_01.wav",
+      "seconds": 3.825,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/low_health_01.wav",
+      "seconds": 0.5588,
+      "peak": 0.443817138671875,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/victory_01.wav",
+      "seconds": 5.3629,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/defeat_01.wav",
+      "seconds": 3.4522,
+      "peak": 0.599761962890625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_swing_01.wav",
+      "seconds": 0.1927,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_swing_02.wav",
+      "seconds": 0.2874,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_swing_03.wav",
+      "seconds": 0.3224,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_hit_01.wav",
+      "seconds": 0.4,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_hit_02.wav",
+      "seconds": 0.4,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/sword_hit_03.wav",
+      "seconds": 0.4,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_swing_01.wav",
+      "seconds": 0.2625,
+      "peak": 0.61114501953125,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_swing_02.wav",
+      "seconds": 0.1527,
+      "peak": 0.649810791015625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_swing_03.wav",
+      "seconds": 0.2076,
+      "peak": 0.676177978515625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_hit_01.wav",
+      "seconds": 0.2026,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_hit_02.wav",
+      "seconds": 0.5369,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hammer_hit_03.wav",
+      "seconds": 0.65,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bow_shoot_01.wav",
+      "seconds": 0.3618,
+      "peak": 0.678924560546875,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bow_shoot_02.wav",
+      "seconds": 0.3323,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bow_shoot_03.wav",
+      "seconds": 0.3473,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/arrow_hit_01.wav",
+      "seconds": 0.2376,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/arrow_hit_02.wav",
+      "seconds": 0.1428,
+      "peak": 0.538421630859375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/arrow_hit_03.wav",
+      "seconds": 0.3,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_bolt_01.wav",
+      "seconds": 0.2525,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_bolt_02.wav",
+      "seconds": 0.3872,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_bolt_03.wav",
+      "seconds": 0.2126,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_hit_01.wav",
+      "seconds": 0.0723,
+      "peak": 0.521697998046875,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_hit_02.wav",
+      "seconds": 0.0679,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/magic_hit_03.wav",
+      "seconds": 0.0641,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hero_hurt_01.wav",
+      "seconds": 0.5,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hero_hurt_02.wav",
+      "seconds": 0.5,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hero_hurt_03.wav",
+      "seconds": 0.5,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/hero_death_01.wav",
+      "seconds": 1.3051,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_stone_01.wav",
+      "seconds": 0.25,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_stone_02.wav",
+      "seconds": 0.25,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_stone_03.wav",
+      "seconds": 0.25,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_stone_04.wav",
+      "seconds": 0.25,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_armor_01.wav",
+      "seconds": 0.2625,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_armor_02.wav",
+      "seconds": 0.2874,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_armor_03.wav",
+      "seconds": 0.3,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/step_armor_04.wav",
+      "seconds": 0.2076,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/knight_whirlwind_01.wav",
+      "seconds": 0.8312,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/knight_whirlwind_02.wav",
+      "seconds": 0.7963,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/knight_dash_01.wav",
+      "seconds": 0.3024,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/knight_dash_02.wav",
+      "seconds": 0.55,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/fireball_cast_01.wav",
+      "seconds": 0.5419,
+      "peak": 0.591705322265625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/fireball_cast_02.wav",
+      "seconds": 0.4321,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/fireball_hit_01.wav",
+      "seconds": 0.5419,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/fireball_hit_02.wav",
+      "seconds": 0.6566,
+      "peak": 0.631439208984375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/fireball_hit_03.wav",
+      "seconds": 0.6716,
+      "peak": 0.615936279296875,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ice_nova_01.wav",
+      "seconds": 0.6416,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ice_nova_02.wav",
+      "seconds": 0.6766,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/arrow_rain_01.wav",
+      "seconds": 2.8366,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/arrow_rain_02.wav",
+      "seconds": 2.0584,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/archer_evade_01.wav",
+      "seconds": 0.1428,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/archer_evade_02.wav",
+      "seconds": 0.45,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/holy_light_01.wav",
+      "seconds": 1.5246,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/holy_light_02.wav",
+      "seconds": 1.6,
+      "peak": 0.584564208984375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/heaven_smite_01.wav",
+      "seconds": 0.921,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/heaven_smite_02.wav",
+      "seconds": 0.7763,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/zombie_growl_01.wav",
+      "seconds": 1.0,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/zombie_growl_02.wav",
+      "seconds": 1.0,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/zombie_growl_03.wav",
+      "seconds": 0.941,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/crawler_snarl_01.wav",
+      "seconds": 0.75,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/crawler_snarl_02.wav",
+      "seconds": 0.75,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/crawler_snarl_03.wav",
+      "seconds": 0.7065,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/heavy_groan_01.wav",
+      "seconds": 1.0856,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/heavy_groan_02.wav",
+      "seconds": 1.1,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/spider_hiss_01.wav",
+      "seconds": 0.65,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/spider_hiss_02.wav",
+      "seconds": 0.65,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/spider_hiss_03.wav",
+      "seconds": 0.65,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/enemy_hit_01.wav",
+      "seconds": 0.35,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/enemy_hit_02.wav",
+      "seconds": 0.35,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/enemy_hit_03.wav",
+      "seconds": 0.1927,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/undead_death_01.wav",
+      "seconds": 0.85,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/undead_death_02.wav",
+      "seconds": 0.85,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/undead_death_03.wav",
+      "seconds": 0.7763,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/spider_death_01.wav",
+      "seconds": 0.65,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/spider_death_02.wav",
+      "seconds": 0.65,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bomber_fuse_01.wav",
+      "seconds": 0.38,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bomber_fuse_02.wav",
+      "seconds": 0.38,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bomber_explode_01.wav",
+      "seconds": 0.2376,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bomber_explode_02.wav",
+      "seconds": 0.2176,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/bomber_explode_03.wav",
+      "seconds": 0.3722,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_roar_01.wav",
+      "seconds": 1.7441,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_roar_02.wav",
+      "seconds": 1.8,
+      "peak": 0.60894775390625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_windup_01.wav",
+      "seconds": 0.6716,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_windup_02.wav",
+      "seconds": 0.5369,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_hit_01.wav",
+      "seconds": 0.6217,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_hit_02.wav",
+      "seconds": 0.5668,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_hit_03.wav",
+      "seconds": 0.1378,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_summon_01.wav",
+      "seconds": 0.9859,
+      "peak": 0.53887939453125,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_summon_02.wav",
+      "seconds": 1.0058,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/butcher_death_01.wav",
+      "seconds": 2.5,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ballista_fire_01.wav",
+      "seconds": 0.1078,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ballista_fire_02.wav",
+      "seconds": 0.5468,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/ballista_fire_03.wav",
+      "seconds": 0.1328,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/cannon_fire_01.wav",
+      "seconds": 0.3174,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/cannon_fire_02.wav",
+      "seconds": 0.2824,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/cannon_fire_03.wav",
+      "seconds": 0.3273,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/catapult_fire_01.wav",
+      "seconds": 0.916,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/catapult_fire_02.wav",
+      "seconds": 0.6167,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/siege_impact_01.wav",
+      "seconds": 0.8362,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/siege_impact_02.wav",
+      "seconds": 0.3872,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/siege_impact_03.wav",
+      "seconds": 0.5618,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wall_hit_01.wav",
+      "seconds": 0.3972,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wall_hit_02.wav",
+      "seconds": 0.2276,
+      "peak": 0.602020263671875,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wall_hit_03.wav",
+      "seconds": 0.3024,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wall_break_01.wav",
+      "seconds": 1.8,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/wall_break_02.wav",
+      "seconds": 1.8,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/build_place_01.wav",
+      "seconds": 0.8,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/build_place_02.wav",
+      "seconds": 0.8,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/repair_01.wav",
+      "seconds": 0.9,
+      "peak": 0.70794677734375,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/repair_02.wav",
+      "seconds": 0.9,
+      "peak": 0.707916259765625,
+      "seam_delta": null
+    },
+    {
+      "file": "audio/sfx/amb_wind_01.wav",
+      "seconds": 16.0,
+      "peak": 0.70794677734375,
+      "seam_delta": 0.00030517578125
+    },
+    {
+      "file": "audio/sfx/amb_fire_01.wav",
+      "seconds": 12.0,
+      "peak": 0.70794677734375,
+      "seam_delta": 0.000823974609375
+    },
+    {
+      "file": "audio/sfx/amb_horde_01.wav",
+      "seconds": 16.0,
+      "peak": 0.615203857421875,
+      "seam_delta": 0.0001220703125
+    }
+  ]
+}
